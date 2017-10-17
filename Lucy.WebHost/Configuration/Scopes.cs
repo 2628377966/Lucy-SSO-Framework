@@ -49,7 +49,7 @@ namespace IdentityServer3.Host.Config
                         Type = ScopeType.Resource,
                         Emphasize = true,
                         ShowInDiscoveryDocument = false,
-                        
+
                         Claims = new List<ScopeClaim>
                         {
                             new ScopeClaim(Constants.ClaimTypes.Name),
@@ -58,14 +58,18 @@ namespace IdentityServer3.Host.Config
                     },
                     new Scope
                     {
-                        Name = "generalApi",
+                        Name = Lucy.Constants.WebApi_CLIENTID,
                         DisplayName = "Lucy.ApiClient",
                          Type = ScopeType.Resource,
                         Emphasize = true,
 
                         ScopeSecrets = new List<Secret>
                         {
-                            new Secret("secret".Sha256())
+                            new Secret(Lucy.Constants.WebApi_SECRET.Sha256())
+                        } ,//添加访问用户的claim
+                         Claims = new List<ScopeClaim>
+                        {
+                            new ScopeClaim("UserType"),new ScopeClaim("UserTypeName")
                         }
                     }
                 };

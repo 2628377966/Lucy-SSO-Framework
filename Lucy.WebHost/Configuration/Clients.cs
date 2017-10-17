@@ -72,10 +72,10 @@ namespace IdentityServer3.Host.Config
                     LogoutSessionRequired = true
                 },
                new Client{
-                    ClientId = "carbon",
+                    ClientId = Lucy.Constants.Password_ClientId,
                    ClientSecrets = new List<Secret>
                    {
-                       new Secret("21B5F798-BE55-42BC-8AA8".Sha256())
+                       new Secret(Lucy.Constants.Password_ClientSecret.Sha256())
                    },
                    ClientName = "密码模式适用于APP/SPA-2",
                    AccessTokenType=AccessTokenType.Reference,

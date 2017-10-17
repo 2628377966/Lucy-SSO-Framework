@@ -64,4 +64,3 @@ F:\Lucy\Lucy.WebHost\Lucy.MVCClient\bin\zh-Hans\System.Web.WebPages.Razor.resour
 F:\Lucy\Lucy.WebHost\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.csprojResolveAssemblyReference.cache
 F:\Lucy\Lucy.WebHost\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.dll
 F:\Lucy\Lucy.WebHost\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.pdb
-F:\Lucy\Lucy.WebHost\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.csproj.CoreCompileInputs.cache

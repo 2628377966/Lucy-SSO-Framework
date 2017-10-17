@@ -29,6 +29,3 @@ F:\Lucy\Lucy.WebHost\Lucy.Services\bin\Debug\zh-Hans\System.Web.WebPages.Deploym
 F:\Lucy\Lucy.WebHost\Lucy.Services\obj\Debug\Lucy.Services.csprojResolveAssemblyReference.cache
 F:\Lucy\Lucy.WebHost\Lucy.Services\obj\Debug\Lucy.Services.dll
 F:\Lucy\Lucy.WebHost\Lucy.Services\obj\Debug\Lucy.Services.pdb
-F:\Lucy\Lucy.WebHost\Lucy.Services\bin\Debug\Lucy.Models.dll.config
-F:\Lucy\Lucy.WebHost\Lucy.Services\bin\Debug\EntityFramework.Extended.dll.config
-F:\Lucy\Lucy.WebHost\Lucy.Services\obj\Debug\Lucy.Services.csproj.CoreCompileInputs.cache

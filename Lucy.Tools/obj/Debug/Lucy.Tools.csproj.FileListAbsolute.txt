@@ -19,4 +19,3 @@ F:\Lucy\Lucy.WebHost\Lucy.Tools\bin\Debug\zh-Hans\System.Web.WebPages.resources.
 F:\Lucy\Lucy.WebHost\Lucy.Tools\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 F:\Lucy\Lucy.WebHost\Lucy.Tools\obj\Debug\Lucy.Tools.dll
 F:\Lucy\Lucy.WebHost\Lucy.Tools\obj\Debug\Lucy.Tools.pdb
-F:\Lucy\Lucy.WebHost\Lucy.Tools\obj\Debug\Lucy.Tools.csproj.CoreCompileInputs.cache

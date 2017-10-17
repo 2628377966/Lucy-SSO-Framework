@@ -22,4 +22,3 @@ F:\Lucy\Lucy.WebHost\Constants\bin\Debug\Constants.dll
 F:\Lucy\Lucy.WebHost\Constants\bin\Debug\Constants.pdb
 F:\Lucy\Lucy.WebHost\Constants\obj\Debug\Constants.dll
 F:\Lucy\Lucy.WebHost\Constants\obj\Debug\Constants.pdb
-F:\Lucy\Lucy.WebHost\Constants\obj\Debug\Constants.csproj.CoreCompileInputs.cache

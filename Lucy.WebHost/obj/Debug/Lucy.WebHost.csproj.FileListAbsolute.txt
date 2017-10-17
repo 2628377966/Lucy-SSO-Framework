@@ -1,8 +1,11 @@
+F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Configuration\idsrv3test.pfx
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.WebHost.dll.config
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.WebHost.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.WebHost.pdb
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Antlr3.Runtime.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Constants.dll
+F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.dll
+F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.SqlServer.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\IdentityServer3.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Services.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Tools.dll
@@ -25,7 +28,6 @@ F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\System.Web.WebPages.Razor.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\WebGrease.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Models.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Mehdime.Entity.dll
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.Extended.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\NPOI.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\ExfSoft.Common.dll
@@ -34,6 +36,8 @@ F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Constants.pdb
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Services.pdb
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Tools.pdb
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Antlr3.Runtime.pdb
+F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.xml
+F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.SqlServer.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\IdentityServer3.pdb
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\IdentityServer3.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -51,7 +55,6 @@ F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\System.Web.WebPages.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\System.Web.WebPages.Deployment.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\System.Web.WebPages.Razor.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Models.pdb
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.Extended.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\NPOI.xml
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Newtonsoft.Json.xml
@@ -64,10 +67,3 @@ F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\zh-Hans\System.Web.WebPages.Razor.resource
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\obj\Debug\Lucy.WebHost.csprojResolveAssemblyReference.cache
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\obj\Debug\Lucy.WebHost.dll
 F:\Lucy\Lucy.WebHost\Lucy.WebHost\obj\Debug\Lucy.WebHost.pdb
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.SqlServer.dll
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.SqlServer.xml
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Configuration\idsrv3test.pfx
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Services.dll.config
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\obj\Debug\Lucy.WebHost.csproj.CoreCompileInputs.cache
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\Lucy.Models.dll.config
-F:\Lucy\Lucy.WebHost\Lucy.WebHost\bin\EntityFramework.Extended.dll.config
