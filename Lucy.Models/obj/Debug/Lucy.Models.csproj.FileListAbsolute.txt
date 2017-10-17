@@ -7,3 +7,14 @@ F:\Lucy\Lucy.WebHost\Lucy.Models\bin\Debug\EntityFramework.xml
 F:\Lucy\Lucy.WebHost\Lucy.Models\bin\Debug\EntityFramework.SqlServer.xml
 F:\Lucy\Lucy.WebHost\Lucy.Models\obj\Debug\Lucy.Models.dll
 F:\Lucy\Lucy.WebHost\Lucy.Models\obj\Debug\Lucy.Models.pdb
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\Lucy.Models.dll.config
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\Lucy.Models.dll
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\Lucy.Models.pdb
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.dll
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.SqlServer.dll
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.xml
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.SqlServer.xml
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\obj\Debug\Lucy.Models.csprojResolveAssemblyReference.cache
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\obj\Debug\Lucy.Models.csproj.CoreCompileInputs.cache
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\obj\Debug\Lucy.Models.dll
+F:\Lucy\Lucy-SSO-Framework\Lucy.Models\obj\Debug\Lucy.Models.pdb
