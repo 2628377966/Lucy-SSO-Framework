@@ -1,0 +1,25 @@
+F:\API文档\IdentityServer3\identityServer3sample\IdentityServer3.Samples\source\Clients\Constants\bin\Debug\Constants.dll
+F:\API文档\IdentityServer3\identityServer3sample\IdentityServer3.Samples\source\Clients\Constants\bin\Debug\Constants.pdb
+F:\API文档\IdentityServer3\identityServer3sample\IdentityServer3.Samples\source\Clients\Constants\obj\Debug\Constants.csprojResolveAssemblyReference.cache
+F:\API文档\IdentityServer3\identityServer3sample\IdentityServer3.Samples\source\Clients\Constants\obj\Debug\Constants.dll
+F:\API文档\IdentityServer3\identityServer3sample\IdentityServer3.Samples\source\Clients\Constants\obj\Debug\Constants.pdb
+F:\临时代码\IdentityServer3\Constants\bin\Debug\Constants.dll
+F:\临时代码\IdentityServer3\Constants\bin\Debug\Constants.pdb
+F:\临时代码\IdentityServer3\Constants\obj\Debug\Constants.csprojResolveAssemblyReference.cache
+F:\临时代码\IdentityServer3\Constants\obj\Debug\Constants.dll
+F:\临时代码\IdentityServer3\Constants\obj\Debug\Constants.pdb
+F:\IdentityServer3\Constants\bin\Debug\Constants.dll
+F:\IdentityServer3\Constants\bin\Debug\Constants.pdb
+F:\IdentityServer3\Constants\obj\Debug\Constants.csprojResolveAssemblyReference.cache
+F:\IdentityServer3\Constants\obj\Debug\Constants.dll
+F:\IdentityServer3\Constants\obj\Debug\Constants.pdb
+E:\WorkSpace\XM1701008 四川交通运输职业技术学校项目\03开发库\01源代码\信息门户\最新代码\YQSH.InfortmationPortalMgmt\Constants\bin\Debug\Constants.dll
+E:\WorkSpace\XM1701008 四川交通运输职业技术学校项目\03开发库\01源代码\信息门户\最新代码\YQSH.InfortmationPortalMgmt\Constants\bin\Debug\Constants.pdb
+E:\WorkSpace\XM1701008 四川交通运输职业技术学校项目\03开发库\01源代码\信息门户\最新代码\YQSH.InfortmationPortalMgmt\Constants\obj\Debug\Constants.dll
+E:\WorkSpace\XM1701008 四川交通运输职业技术学校项目\03开发库\01源代码\信息门户\最新代码\YQSH.InfortmationPortalMgmt\Constants\obj\Debug\Constants.pdb
+E:\WorkSpace\XM1701008 四川交通运输职业技术学校项目\03开发库\01源代码\信息门户\最新代码\YQSH.InfortmationPortalMgmt\Constants\obj\Debug\Constants.csprojResolveAssemblyReference.cache
+F:\Lucy\Lucy.WebHost\Constants\bin\Debug\Constants.dll
+F:\Lucy\Lucy.WebHost\Constants\bin\Debug\Constants.pdb
+F:\Lucy\Lucy.WebHost\Constants\obj\Debug\Constants.dll
+F:\Lucy\Lucy.WebHost\Constants\obj\Debug\Constants.pdb
+F:\Lucy\Lucy.WebHost\Constants\obj\Debug\Constants.csproj.CoreCompileInputs.cache

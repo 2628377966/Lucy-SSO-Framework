@@ -1,0 +1,639 @@
+2017-10-16 10:21:08.248 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 10:21:08.274 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 10:21:08.274 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 10:21:08.274 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 10:21:08.505 +08:00 [Warning] No signing certificate configured.
+2017-10-16 10:21:08.595 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T02:21:08.5082382+00:00",
+    "ProcessId": 11676,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 10:21:13.778 +08:00 [Information] Welcome page requested - rendering
+2017-10-16 10:23:54.351 +08:00 [Information] Start discovery request
+2017-10-16 10:23:54.409 +08:00 [Information] Start key discovery request
+2017-10-16 10:23:54.476 +08:00 [Information] Start authorize request
+2017-10-16 10:23:54.481 +08:00 [Information] Start authorize request protocol validation
+2017-10-16 10:23:54.507 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcClient\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:58426/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:58426/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=RimP90-yCkBAM5BUOYGepXTFJqkiEsNX_KJtz9uN7rop8NRNIGop9_37udRSloYVzjABqq2jE5Po2X6YPsMay_HIjtdsKxOVOpNaKbLTXAxZlwepuTQiWbTi4dUaMpqluQ1gjH1VcPWK_WirIztBL0377w64cAifM3v8HJdr5a1tb8_-CRm8t7smvtwYTCXthaffqmPrCI-BO8lWlkJ3bg\",
+  \"Nonce\": \"636437174344289672.OTdjNDVhOTQtZWE0YS00NmMwLTk4ZTAtNzI5ZDZkMjhjOTA4MzkxM2IyMzgtNWI2ZC00MTkzLTk3NDktM2Y5ZDA4OGNiNmEx\",
+  \"Raw\": {
+    \"client_id\": \"mvcClient\",
+    \"redirect_uri\": \"http://localhost:58426/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=RimP90-yCkBAM5BUOYGepXTFJqkiEsNX_KJtz9uN7rop8NRNIGop9_37udRSloYVzjABqq2jE5Po2X6YPsMay_HIjtdsKxOVOpNaKbLTXAxZlwepuTQiWbTi4dUaMpqluQ1gjH1VcPWK_WirIztBL0377w64cAifM3v8HJdr5a1tb8_-CRm8t7smvtwYTCXthaffqmPrCI-BO8lWlkJ3bg\",
+    \"nonce\": \"636437174344289672.OTdjNDVhOTQtZWE0YS00NmMwLTk4ZTAtNzI5ZDZkMjhjOTA4MzkxM2IyMzgtNWI2ZC00MTkzLTk3NDktM2Y5ZDA4OGNiNmEx\"
+  }
+}"
+2017-10-16 10:23:54.510 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-16 10:23:54.521 +08:00 [Information] End authorize request
+2017-10-16 10:23:54.522 +08:00 [Information] Redirecting to login page
+2017-10-16 10:23:54.566 +08:00 [Information] Login page requested
+2017-10-16 10:23:54.608 +08:00 [Information] rendering login page
+2017-10-16 10:29:32.183 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 10:29:32.200 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 10:29:32.200 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 10:29:32.200 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 10:29:32.417 +08:00 [Warning] No signing certificate configured.
+2017-10-16 10:29:32.508 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T02:29:32.4199493+00:00",
+    "ProcessId": 11676,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 10:29:34.991 +08:00 [Information] Welcome page requested - rendering
+2017-10-16 10:30:11.769 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 10:30:11.781 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 10:30:11.781 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 10:30:11.781 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 10:30:12.022 +08:00 [Warning] No signing certificate configured.
+2017-10-16 10:30:12.111 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T02:30:12.0243191+00:00",
+    "ProcessId": 20724,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 10:30:15.132 +08:00 [Information] Welcome page requested - rendering
+2017-10-16 10:39:33.500 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 10:39:33.517 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 10:39:33.517 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 10:39:33.517 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 10:39:33.754 +08:00 [Warning] No signing certificate configured.
+2017-10-16 10:39:33.853 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T02:39:33.7570704+00:00",
+    "ProcessId": 20724,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 10:39:37.130 +08:00 [Information] Welcome page requested - rendering
+2017-10-16 17:07:33.510 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 17:07:33.541 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 17:07:33.541 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 17:07:33.541 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 17:07:33.761 +08:00 [Warning] No signing certificate configured.
+2017-10-16 17:07:33.851 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T09:07:33.7644116+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 17:07:38.188 +08:00 [Information] Welcome page requested - rendering
+2017-10-16 17:15:46.510 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 17:15:46.521 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 17:15:46.521 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 17:15:46.522 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 17:15:46.742 +08:00 [Warning] No signing certificate configured.
+2017-10-16 17:15:46.832 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T09:15:46.7441616+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 17:15:50.939 +08:00 [Information] Welcome page requested - rendering
+2017-10-16 17:19:02.537 +08:00 [Information] Start discovery request
+2017-10-16 17:19:02.603 +08:00 [Information] Start key discovery request
+2017-10-16 17:19:02.673 +08:00 [Information] Start authorize request
+2017-10-16 17:19:02.678 +08:00 [Information] Start authorize request protocol validation
+2017-10-16 17:19:02.702 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcClient\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:58426/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:58426/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=wq_ouyAwoR3f9t3h2aafbgSJ2ooEUJA2Q5SwpWAXkfWJt7esx3ZXf6T-GBuWQVIl6g3lmMe87CXseO-0ckJPmweyQN9YbPLVpgttO0cL4jT9u0zWJAKxSg54AyPnrfpTu6QJvzzST-39VntWFa3RZP6F23EADyKbwouqowEfgGQOT_XjctAgKvKfXqkUvZygt8e98qT1JJ5e_rw90UkQog\",
+  \"Nonce\": \"636437423426256013.NTM1ZTU5YzMtMzM0ZS00YmEyLWI2MjktNzc2NTg4NWM3YWEwZWQ3ODgyYjAtNzI1OC00ZjU5LTk3YTQtODg4MzMwNDRiZjc5\",
+  \"Raw\": {
+    \"client_id\": \"mvcClient\",
+    \"redirect_uri\": \"http://localhost:58426/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=wq_ouyAwoR3f9t3h2aafbgSJ2ooEUJA2Q5SwpWAXkfWJt7esx3ZXf6T-GBuWQVIl6g3lmMe87CXseO-0ckJPmweyQN9YbPLVpgttO0cL4jT9u0zWJAKxSg54AyPnrfpTu6QJvzzST-39VntWFa3RZP6F23EADyKbwouqowEfgGQOT_XjctAgKvKfXqkUvZygt8e98qT1JJ5e_rw90UkQog\",
+    \"nonce\": \"636437423426256013.NTM1ZTU5YzMtMzM0ZS00YmEyLWI2MjktNzc2NTg4NWM3YWEwZWQ3ODgyYjAtNzI1OC00ZjU5LTk3YTQtODg4MzMwNDRiZjc5\"
+  }
+}"
+2017-10-16 17:19:02.706 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-16 17:19:02.714 +08:00 [Information] End authorize request
+2017-10-16 17:19:02.714 +08:00 [Information] Redirecting to login page
+2017-10-16 17:19:02.760 +08:00 [Information] Login page requested
+2017-10-16 17:19:02.805 +08:00 [Information] rendering login page
+2017-10-16 17:19:08.533 +08:00 [Information] Login page submitted
+2017-10-16 17:19:08.787 +08:00 [Error] Unhandled exception accessing: /core/login
+System.InvalidOperationException: No connection string named 'WebDB' could be found in the application config file.
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ConnectionHasModel()
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.GroupJoin[TOuter,TInner,TKey,TResult](IQueryable`1 outer, IEnumerable`1 inner, Expression`1 outerKeySelector, Expression`1 innerKeySelector, Expression`1 resultSelector)
+   在 Lucy.Services.Implements.AccountSvc.GetFullList() 位置 F:\Lucy\Lucy.WebHost\Lucy.Services\Implements\AccountSvc.cs:行号 222
+   在 IdentityServer3.Host.Config.Users.Get() 位置 F:\Lucy\Lucy.WebHost\Lucy.WebHost\Configuration\Users.cs:行号 30
+   在 Lucy.WebHost.UserService.UserBiz.CheckLogin(String userName, String password) 位置 F:\Lucy\Lucy.WebHost\Lucy.WebHost\UserService\UserBiz.cs:行号 15
+   在 Lucy.WebHost.UserService.CustomUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 F:\Lucy\Lucy.WebHost\Lucy.WebHost\UserService\CustomUserService.cs:行号 28
+   在 IdentityServer3.Core.Services.Caching.CachingUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Services\Caching\CachingUserService.cs:行号 72
+   在 IdentityServer3.Core.Services.Default.ExternalClaimsFilterUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Services\ExternalClaimsFilter\ExternalClaimsFilterUserService.cs:行号 44
+   在 IdentityServer3.Core.Endpoints.AuthenticationController.<LoginLocal>d__9.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Endpoints\AuthenticationController.cs:行号 227
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.System.Web.Http910911.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+2017-10-16 17:19:08.820 +08:00 [Information] {
+  "Category": "InternalError",
+  "Name": "Unhandled exception",
+  "EventType": "Error",
+  "Id": 5000,
+  "Message": "System.InvalidOperationException: No connection string named 'WebDB' could be found in the application config file.\r\n   在 System.Data.Entity.Internal.LazyInternalConnection.get_ConnectionHasModel()\r\n   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()\r\n   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\r\n   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\r\n   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()\r\n   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()\r\n   在 System.Linq.Queryable.GroupJoin[TOuter,TInner,TKey,TResult](IQueryable`1 outer, IEnumerable`1 inner, Expression`1 outerKeySelector, Expression`1 innerKeySelector, Expression`1 resultSelector)\r\n   在 Lucy.Services.Implements.AccountSvc.GetFullList() 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.Services\\Implements\\AccountSvc.cs:行号 222\r\n   在 IdentityServer3.Host.Config.Users.Get() 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.WebHost\\Configuration\\Users.cs:行号 30\r\n   在 Lucy.WebHost.UserService.UserBiz.CheckLogin(String userName, String password) 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.WebHost\\UserService\\UserBiz.cs:行号 15\r\n   在 Lucy.WebHost.UserService.CustomUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.WebHost\\UserService\\CustomUserService.cs:行号 28\r\n   在 IdentityServer3.Core.Services.Caching.CachingUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Services\\Caching\\CachingUserService.cs:行号 72\r\n   在 IdentityServer3.Core.Services.Default.ExternalClaimsFilterUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Services\\ExternalClaimsFilter\\ExternalClaimsFilterUserService.cs:行号 44\r\n   在 IdentityServer3.Core.Endpoints.AuthenticationController.<LoginLocal>d__9.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Endpoints\\AuthenticationController.cs:行号 227\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Threading.Tasks.System.Web.Http910911.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0",
+  "Context": {
+    "ActivityId": "80000065-0003-d800-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-16T09:19:08.820028+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-16 17:22:42.764 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 17:22:42.776 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 17:22:42.776 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 17:22:42.776 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 17:22:43.003 +08:00 [Warning] No signing certificate configured.
+2017-10-16 17:22:43.094 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T09:22:43.0054968+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 17:22:58.182 +08:00 [Information] Start discovery request
+2017-10-16 17:22:58.266 +08:00 [Information] Start key discovery request
+2017-10-16 17:22:58.328 +08:00 [Information] Start authorize request
+2017-10-16 17:22:58.334 +08:00 [Information] Start authorize request protocol validation
+2017-10-16 17:22:58.357 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcClient\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:58426/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:58426/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=2E7l18Iuerc5n3HAiGFjuNZNZX_lUBMIiVMAYplkcjAYa2UqPyOWLlAy9vWHzfeMHgMJnAt0V2HykfSmCMcdP-wh9I5sSHr1JokXWyVsDLp-qeQ23AguE5ddwI7GYW-G4DrTBQdnH5gOs-MYPiWKzBeasSAvUltX-x3PEyiv4-RJRDojBdVRAeuOZqHpYU0mGEso8PNfcRQdTEI_I2BE_g\",
+  \"Nonce\": \"636437425782839844.MTJlMjZhOTgtZDEyOC00NWY5LWFmYjAtYmJiMTllMDBlNjFlMDJlOGIyODQtMzk3Mi00YjIwLTllYjAtNzEzNjU0OTkzNTAy\",
+  \"Raw\": {
+    \"client_id\": \"mvcClient\",
+    \"redirect_uri\": \"http://localhost:58426/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=2E7l18Iuerc5n3HAiGFjuNZNZX_lUBMIiVMAYplkcjAYa2UqPyOWLlAy9vWHzfeMHgMJnAt0V2HykfSmCMcdP-wh9I5sSHr1JokXWyVsDLp-qeQ23AguE5ddwI7GYW-G4DrTBQdnH5gOs-MYPiWKzBeasSAvUltX-x3PEyiv4-RJRDojBdVRAeuOZqHpYU0mGEso8PNfcRQdTEI_I2BE_g\",
+    \"nonce\": \"636437425782839844.MTJlMjZhOTgtZDEyOC00NWY5LWFmYjAtYmJiMTllMDBlNjFlMDJlOGIyODQtMzk3Mi00YjIwLTllYjAtNzEzNjU0OTkzNTAy\"
+  }
+}"
+2017-10-16 17:22:58.361 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-16 17:22:58.368 +08:00 [Information] End authorize request
+2017-10-16 17:22:58.369 +08:00 [Information] Redirecting to login page
+2017-10-16 17:22:58.413 +08:00 [Information] Login page requested
+2017-10-16 17:22:58.458 +08:00 [Information] rendering login page
+2017-10-16 17:23:05.249 +08:00 [Information] Login page submitted
+2017-10-16 17:23:05.607 +08:00 [Error] Unhandled exception accessing: /core/login
+System.InvalidOperationException: No Entity Framework provider found for the ADO.NET provider with invariant name 'System.Data.SqlClient'. Make sure the provider is registered in the 'entityFramework' section of the application config file. See http://go.microsoft.com/fwlink/?LinkId=260882 for more information.
+   在 System.Data.Entity.Infrastructure.DependencyResolution.DefaultProviderServicesResolver.GetService(Type type, Object key)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.CachingDependencyResolver.<>c__DisplayClass1.<GetService>b__0(Tuple`2 k)
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.CachingDependencyResolver.GetService(Type type, Object key)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.<>c__DisplayClass3.<GetService>b__0(IDbDependencyResolver r)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.GetService(Type type, Object key)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.RootDependencyResolver.GetService(Type type, Object key)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.<>c__DisplayClass3.<GetService>b__0(IDbDependencyResolver r)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.GetService(Type type, Object key)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.CompositeResolver`2.GetService(Type type, Object key)
+   在 System.Data.Entity.Infrastructure.DependencyResolution.DbDependencyResolverExtensions.GetService[T](IDbDependencyResolver resolver, Object key)
+   在 System.Data.Entity.Utilities.DbProviderFactoryExtensions.GetProviderServices(DbProviderFactory factory)
+   在 System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   在 System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   在 System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   在 System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   在 System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   在 System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.GroupJoin[TOuter,TInner,TKey,TResult](IQueryable`1 outer, IEnumerable`1 inner, Expression`1 outerKeySelector, Expression`1 innerKeySelector, Expression`1 resultSelector)
+   在 Lucy.Services.Implements.AccountSvc.GetFullList() 位置 F:\Lucy\Lucy.WebHost\Lucy.Services\Implements\AccountSvc.cs:行号 222
+   在 IdentityServer3.Host.Config.Users.Get() 位置 F:\Lucy\Lucy.WebHost\Lucy.WebHost\Configuration\Users.cs:行号 30
+   在 Lucy.WebHost.UserService.UserBiz.CheckLogin(String userName, String password) 位置 F:\Lucy\Lucy.WebHost\Lucy.WebHost\UserService\UserBiz.cs:行号 15
+   在 Lucy.WebHost.UserService.CustomUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 F:\Lucy\Lucy.WebHost\Lucy.WebHost\UserService\CustomUserService.cs:行号 28
+   在 IdentityServer3.Core.Services.Caching.CachingUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Services\Caching\CachingUserService.cs:行号 72
+   在 IdentityServer3.Core.Services.Default.ExternalClaimsFilterUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Services\ExternalClaimsFilter\ExternalClaimsFilterUserService.cs:行号 44
+   在 IdentityServer3.Core.Endpoints.AuthenticationController.<LoginLocal>d__9.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Endpoints\AuthenticationController.cs:行号 227
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.System.Web.Http910911.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+2017-10-16 17:23:05.619 +08:00 [Information] {
+  "Category": "InternalError",
+  "Name": "Unhandled exception",
+  "EventType": "Error",
+  "Id": 5000,
+  "Message": "System.InvalidOperationException: No Entity Framework provider found for the ADO.NET provider with invariant name 'System.Data.SqlClient'. Make sure the provider is registered in the 'entityFramework' section of the application config file. See http://go.microsoft.com/fwlink/?LinkId=260882 for more information.\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.DefaultProviderServicesResolver.GetService(Type type, Object key)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.CachingDependencyResolver.<>c__DisplayClass1.<GetService>b__0(Tuple`2 k)\r\n   在 System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.CachingDependencyResolver.GetService(Type type, Object key)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.<>c__DisplayClass3.<GetService>b__0(IDbDependencyResolver r)\r\n   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()\r\n   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.GetService(Type type, Object key)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.RootDependencyResolver.GetService(Type type, Object key)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.<>c__DisplayClass3.<GetService>b__0(IDbDependencyResolver r)\r\n   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()\r\n   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.ResolverChain.GetService(Type type, Object key)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.CompositeResolver`2.GetService(Type type, Object key)\r\n   在 System.Data.Entity.Infrastructure.DependencyResolution.DbDependencyResolverExtensions.GetService[T](IDbDependencyResolver resolver, Object key)\r\n   在 System.Data.Entity.Utilities.DbProviderFactoryExtensions.GetProviderServices(DbProviderFactory factory)\r\n   在 System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)\r\n   在 System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)\r\n   在 System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)\r\n   在 System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)\r\n   在 System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)\r\n   在 System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)\r\n   在 System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)\r\n   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()\r\n   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\r\n   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\r\n   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()\r\n   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()\r\n   在 System.Linq.Queryable.GroupJoin[TOuter,TInner,TKey,TResult](IQueryable`1 outer, IEnumerable`1 inner, Expression`1 outerKeySelector, Expression`1 innerKeySelector, Expression`1 resultSelector)\r\n   在 Lucy.Services.Implements.AccountSvc.GetFullList() 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.Services\\Implements\\AccountSvc.cs:行号 222\r\n   在 IdentityServer3.Host.Config.Users.Get() 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.WebHost\\Configuration\\Users.cs:行号 30\r\n   在 Lucy.WebHost.UserService.UserBiz.CheckLogin(String userName, String password) 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.WebHost\\UserService\\UserBiz.cs:行号 15\r\n   在 Lucy.WebHost.UserService.CustomUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 F:\\Lucy\\Lucy.WebHost\\Lucy.WebHost\\UserService\\CustomUserService.cs:行号 28\r\n   在 IdentityServer3.Core.Services.Caching.CachingUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Services\\Caching\\CachingUserService.cs:行号 72\r\n   在 IdentityServer3.Core.Services.Default.ExternalClaimsFilterUserService.AuthenticateLocalAsync(LocalAuthenticationContext context) 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Services\\ExternalClaimsFilter\\ExternalClaimsFilterUserService.cs:行号 44\r\n   在 IdentityServer3.Core.Endpoints.AuthenticationController.<LoginLocal>d__9.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Endpoints\\AuthenticationController.cs:行号 227\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Threading.Tasks.System.Web.Http910911.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0",
+  "Context": {
+    "ActivityId": "8000006b-0003-d800-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-16T09:23:05.619242+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-16 17:27:51.727 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-16 17:27:51.743 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-16 17:27:51.743 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-16 17:27:51.743 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-16 17:27:51.982 +08:00 [Warning] No signing certificate configured.
+2017-10-16 17:27:52.080 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "No signing certificate configured",
+  "EventType": "Information",
+  "Id": 4010,
+  "Context": {
+    "TimeStamp": "2017-10-16T09:27:51.9855658+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-16 17:28:03.642 +08:00 [Information] Start discovery request
+2017-10-16 17:28:03.722 +08:00 [Information] Start key discovery request
+2017-10-16 17:28:03.783 +08:00 [Information] Start authorize request
+2017-10-16 17:28:03.788 +08:00 [Information] Start authorize request protocol validation
+2017-10-16 17:28:03.812 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcClient\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:58426/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:58426/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=5S-2YdqCPnMPfUA25kzLlSyDbqL3FnVFsFNtFWcGiwzgPXDKyY2AiMryTz_mAbNzTnuBPWYL19go5VEQP9r0fIhWXOJsBk_THC8p6AIoInEJXQlnhnX0LSx6QJwtYw050rc5FWSOCGsq9JMTrNMgzwFeKEbQJ88w3DdSGIEF1FNJmpfWVzf3lOhNwn8-ejfqWkXWYe8pkmJI6VoZ4IK-Ow\",
+  \"Nonce\": \"636437428837397835.N2FhZDBkZjQtOWFkOS00YzhkLWI5MTUtNzNkZmY3ZmMxYTA0NzRiYzYxYzQtYjMxMi00MTY2LWJhYzctZGVhZDgzNWEyZWFm\",
+  \"Raw\": {
+    \"client_id\": \"mvcClient\",
+    \"redirect_uri\": \"http://localhost:58426/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=5S-2YdqCPnMPfUA25kzLlSyDbqL3FnVFsFNtFWcGiwzgPXDKyY2AiMryTz_mAbNzTnuBPWYL19go5VEQP9r0fIhWXOJsBk_THC8p6AIoInEJXQlnhnX0LSx6QJwtYw050rc5FWSOCGsq9JMTrNMgzwFeKEbQJ88w3DdSGIEF1FNJmpfWVzf3lOhNwn8-ejfqWkXWYe8pkmJI6VoZ4IK-Ow\",
+    \"nonce\": \"636437428837397835.N2FhZDBkZjQtOWFkOS00YzhkLWI5MTUtNzNkZmY3ZmMxYTA0NzRiYzYxYzQtYjMxMi00MTY2LWJhYzctZGVhZDgzNWEyZWFm\"
+  }
+}"
+2017-10-16 17:28:03.816 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-16 17:28:03.823 +08:00 [Information] End authorize request
+2017-10-16 17:28:03.824 +08:00 [Information] Redirecting to login page
+2017-10-16 17:28:03.866 +08:00 [Information] Login page requested
+2017-10-16 17:28:03.909 +08:00 [Information] rendering login page
+2017-10-16 17:28:09.079 +08:00 [Information] Login page submitted
+2017-10-16 17:28:09.450 +08:00 [Information] Login credentials successfully validated by user service
+2017-10-16 17:28:09.458 +08:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "admin",
+    "SignInId": "c42f8f8768fd3252746045b600ecf69d",
+    "SignInMessage": {
+      "ReturnUrl": "http://localhost:50735/core/connect/authorize?client_id=mvcClient&redirect_uri=http%3A%2F%2Flocalhost%3A58426%2F&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile%20all_claims%20offline_access&state=OpenIdConnect.AuthenticationProperties%3D5S-2YdqCPnMPfUA25kzLlSyDbqL3FnVFsFNtFWcGiwzgPXDKyY2AiMryTz_mAbNzTnuBPWYL19go5VEQP9r0fIhWXOJsBk_THC8p6AIoInEJXQlnhnX0LSx6QJwtYw050rc5FWSOCGsq9JMTrNMgzwFeKEbQJ88w3DdSGIEF1FNJmpfWVzf3lOhNwn8-ejfqWkXWYe8pkmJI6VoZ4IK-Ow&nonce=636437428837397835.N2FhZDBkZjQtOWFkOS00YzhkLWI5MTUtNzNkZmY3ZmMxYTA0NzRiYzYxYzQtYjMxMi00MTY2LWJhYzctZGVhZDgzNWEyZWFm",
+      "ClientId": "mvcClient",
+      "AcrValues": [],
+      "Created": 636437428837578133
+    },
+    "PartialLogin": false,
+    "SubjectId": "admin",
+    "Name": "admin"
+  },
+  "Context": {
+    "ActivityId": "800000d9-0003-ea00-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-16T09:28:09.4554353+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-16 17:28:09.462 +08:00 [Information] Calling PostAuthenticateAsync on the user service
+2017-10-16 17:28:09.465 +08:00 [Information] issuing primary signin cookie
+2017-10-16 17:28:09.469 +08:00 [Information] redirecting to: http://localhost:50735/core/connect/authorize?client_id=mvcClient&redirect_uri=http:%2F%2Flocalhost:58426%2F&response_mode=form_post&response_type=code id_token&scope=openid profile all_claims offline_access&state=OpenIdConnect.AuthenticationProperties%3D5S-2YdqCPnMPfUA25kzLlSyDbqL3FnVFsFNtFWcGiwzgPXDKyY2AiMryTz_mAbNzTnuBPWYL19go5VEQP9r0fIhWXOJsBk_THC8p6AIoInEJXQlnhnX0LSx6QJwtYw050rc5FWSOCGsq9JMTrNMgzwFeKEbQJ88w3DdSGIEF1FNJmpfWVzf3lOhNwn8-ejfqWkXWYe8pkmJI6VoZ4IK-Ow&nonce=636437428837397835.N2FhZDBkZjQtOWFkOS00YzhkLWI5MTUtNzNkZmY3ZmMxYTA0NzRiYzYxYzQtYjMxMi00MTY2LWJhYzctZGVhZDgzNWEyZWFm
+2017-10-16 17:28:09.490 +08:00 [Information] Start authorize request
+2017-10-16 17:28:09.490 +08:00 [Information] Start authorize request protocol validation
+2017-10-16 17:28:09.490 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcClient\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:58426/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:58426/\"
+  ],
+  \"SubjectId\": \"admin\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=5S-2YdqCPnMPfUA25kzLlSyDbqL3FnVFsFNtFWcGiwzgPXDKyY2AiMryTz_mAbNzTnuBPWYL19go5VEQP9r0fIhWXOJsBk_THC8p6AIoInEJXQlnhnX0LSx6QJwtYw050rc5FWSOCGsq9JMTrNMgzwFeKEbQJ88w3DdSGIEF1FNJmpfWVzf3lOhNwn8-ejfqWkXWYe8pkmJI6VoZ4IK-Ow\",
+  \"Nonce\": \"636437428837397835.N2FhZDBkZjQtOWFkOS00YzhkLWI5MTUtNzNkZmY3ZmMxYTA0NzRiYzYxYzQtYjMxMi00MTY2LWJhYzctZGVhZDgzNWEyZWFm\",
+  \"SessionId\": \"6096801328d44067af1601b4515aa477\",
+  \"Raw\": {
+    \"client_id\": \"mvcClient\",
+    \"redirect_uri\": \"http://localhost:58426/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=5S-2YdqCPnMPfUA25kzLlSyDbqL3FnVFsFNtFWcGiwzgPXDKyY2AiMryTz_mAbNzTnuBPWYL19go5VEQP9r0fIhWXOJsBk_THC8p6AIoInEJXQlnhnX0LSx6QJwtYw050rc5FWSOCGsq9JMTrNMgzwFeKEbQJ88w3DdSGIEF1FNJmpfWVzf3lOhNwn8-ejfqWkXWYe8pkmJI6VoZ4IK-Ow\",
+    \"nonce\": \"636437428837397835.N2FhZDBkZjQtOWFkOS00YzhkLWI5MTUtNzNkZmY3ZmMxYTA0NzRiYzYxYzQtYjMxMi00MTY2LWJhYzctZGVhZDgzNWEyZWFm\"
+  }
+}"
+2017-10-16 17:28:09.500 +08:00 [Information] Creating Hybrid Flow response.
+2017-10-16 17:28:09.509 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Authorization code issued",
+  "EventType": "Information",
+  "Id": 2010,
+  "Details": {
+    "HandleId": "2c385b1630480e30a2bbf4bcd8c8db28",
+    "RedirectUri": "http://localhost:58426/",
+    "SubjectId": "admin",
+    "ClientId": "mvcClient",
+    "Scopes": [
+      "openid",
+      "profile",
+      "all_claims",
+      "offline_access"
+    ],
+    "Lifetime": 300
+  },
+  "Context": {
+    "ActivityId": "800000da-0003-ea00-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-16T09:28:09.5049853+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-16 17:28:09.511 +08:00 [Information] Creating Implicit Flow response.
+2017-10-16 17:28:09.516 +08:00 [Information] Getting claims for identity token for subject: admin
+2017-10-16 17:28:09.517 +08:00 [Information] All claims rule found - emitting all claims for user.
+2017-10-16 17:28:09.802 +08:00 [Error] Unhandled exception accessing: /core/connect/authorize
+System.ArgumentNullException: 值不能为 null。
+参数名: certificate
+   在 System.IdentityModel.Tokens.X509SecurityToken..ctor(X509Certificate2 certificate, String id, Boolean clone, Boolean disposable)
+   在 System.IdentityModel.Tokens.X509SigningCredentials..ctor(X509Certificate2 certificate)
+   在 IdentityServer3.Core.Services.Default.DefaultTokenSigningService.<GetSigningCredentialsAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Services\Default\DefaultTokenSigningService.cs:行号 78
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 IdentityServer3.Core.Services.Default.DefaultTokenSigningService.<SignTokenAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Services\Default\DefaultTokenSigningService.cs:行号 68
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 IdentityServer3.Core.Services.Default.DefaultTokenService.<CreateSecurityTokenAsync>d__c.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Services\Default\DefaultTokenService.cs:行号 259
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 IdentityServer3.Core.ResponseHandling.AuthorizeResponseGenerator.<CreateImplicitFlowResponseAsync>d__18.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\ResponseHandling\AuthorizeResponseGenerator.cs:行号 172
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 IdentityServer3.Core.ResponseHandling.AuthorizeResponseGenerator.<CreateHybridFlowResponseAsync>d__3.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\ResponseHandling\AuthorizeResponseGenerator.cs:行号 74
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 IdentityServer3.Core.ResponseHandling.AuthorizeResponseGenerator.<CreateResponseAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\ResponseHandling\AuthorizeResponseGenerator.cs:行号 62
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 IdentityServer3.Core.Endpoints.AuthorizeEndpointController.<CreateAuthorizeResponseAsync>d__12.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Endpoints\Connect\AuthorizeEndpointController.cs:行号 193
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 IdentityServer3.Core.Endpoints.AuthorizeEndpointController.<ProcessRequestAsync>d__4.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Endpoints\Connect\AuthorizeEndpointController.cs:行号 172
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 IdentityServer3.Core.Endpoints.AuthorizeEndpointController.<Get>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Endpoints\Connect\AuthorizeEndpointController.cs:行号 104
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.System.Web.Http910911.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\ballen\github\identity\IdSrv3\IdentityServer3\source\Core\Configuration\Hosting\NoCacheAttribute.cs:行号 0
+2017-10-16 17:28:09.826 +08:00 [Information] {
+  "Category": "InternalError",
+  "Name": "Unhandled exception",
+  "EventType": "Error",
+  "Id": 5000,
+  "Message": "System.ArgumentNullException: 值不能为 null。\r\n参数名: certificate\r\n   在 System.IdentityModel.Tokens.X509SecurityToken..ctor(X509Certificate2 certificate, String id, Boolean clone, Boolean disposable)\r\n   在 System.IdentityModel.Tokens.X509SigningCredentials..ctor(X509Certificate2 certificate)\r\n   在 IdentityServer3.Core.Services.Default.DefaultTokenSigningService.<GetSigningCredentialsAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Services\\Default\\DefaultTokenSigningService.cs:行号 78\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 IdentityServer3.Core.Services.Default.DefaultTokenSigningService.<SignTokenAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Services\\Default\\DefaultTokenSigningService.cs:行号 68\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 IdentityServer3.Core.Services.Default.DefaultTokenService.<CreateSecurityTokenAsync>d__c.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Services\\Default\\DefaultTokenService.cs:行号 259\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)\r\n   在 IdentityServer3.Core.ResponseHandling.AuthorizeResponseGenerator.<CreateImplicitFlowResponseAsync>d__18.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\ResponseHandling\\AuthorizeResponseGenerator.cs:行号 172\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 IdentityServer3.Core.ResponseHandling.AuthorizeResponseGenerator.<CreateHybridFlowResponseAsync>d__3.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\ResponseHandling\\AuthorizeResponseGenerator.cs:行号 74\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 IdentityServer3.Core.ResponseHandling.AuthorizeResponseGenerator.<CreateResponseAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\ResponseHandling\\AuthorizeResponseGenerator.cs:行号 62\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 IdentityServer3.Core.Endpoints.AuthorizeEndpointController.<CreateAuthorizeResponseAsync>d__12.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Endpoints\\Connect\\AuthorizeEndpointController.cs:行号 193\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)\r\n   在 IdentityServer3.Core.Endpoints.AuthorizeEndpointController.<ProcessRequestAsync>d__4.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Endpoints\\Connect\\AuthorizeEndpointController.cs:行号 172\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 IdentityServer3.Core.Endpoints.AuthorizeEndpointController.<Get>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Endpoints\\Connect\\AuthorizeEndpointController.cs:行号 104\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Threading.Tasks.System.Web.Http910911.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0\r\n--- 引发异常的上一位置中堆栈跟踪的末尾 ---\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext() 位置 c:\\ballen\\github\\identity\\IdSrv3\\IdentityServer3\\source\\Core\\Configuration\\Hosting\\NoCacheAttribute.cs:行号 0",
+  "Context": {
+    "ActivityId": "800000da-0003-ea00-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-16T09:28:09.8265496+00:00",
+    "ProcessId": 832,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
