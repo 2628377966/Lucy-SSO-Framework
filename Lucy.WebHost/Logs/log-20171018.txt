@@ -1,0 +1,19 @@
+2017-10-18 16:31:01.512 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-18 16:31:01.546 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-18 16:31:01.546 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-18 16:31:01.546 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-18 16:31:01.926 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-18T08:31:01.8233935+00:00",
+    "ProcessId": 17780,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}

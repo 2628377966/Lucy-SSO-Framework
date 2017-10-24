@@ -103,7 +103,6 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\ExfSoft.Common.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Newtonsoft.Json.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Constants.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Lucy.Services.pdb
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Lucy.Services.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Lucy.Tools.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Antlr3.Runtime.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\EntityFramework.xml
@@ -125,9 +124,7 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\System.Web.WebPages.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\System.Web.WebPages.Deployment.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\System.Web.WebPages.Razor.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Lucy.Models.pdb
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Lucy.Models.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\EntityFramework.Extended.xml
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\EntityFramework.Extended.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\NPOI.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\Newtonsoft.Json.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\zh-Hans\System.Web.Helpers.resources.dll
@@ -137,6 +134,5 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\zh-Hans\System.Web.WebPages.resource
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\obj\Debug\Lucy.WebHost.csprojResolveAssemblyReference.cache
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\obj\Debug\Lucy.WebHost.csproj.CoreCompileInputs.cache
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\obj\Debug\Lucy.WebHost.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebHost\obj\Debug\Lucy.WebHost.pdb

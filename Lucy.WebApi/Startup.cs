@@ -21,8 +21,8 @@ namespace Lucy.WebApi
 
             app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
-                Authority = Constants.BaseAddress,
-                RequiredScopes = new[] { Constants.WebApi_Scope },
+                Authority = Constants.BaseAddress,//只接受identityserver的令牌
+                RequiredScopes = new[] { Constants.WebApi_Scope },//只接受给generalapi的令牌
 
                 ClientId = Constants.WebApi_CLIENTID,
                 ClientSecret = Constants.WebApi_SECRET

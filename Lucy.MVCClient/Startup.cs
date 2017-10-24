@@ -19,13 +19,15 @@ namespace Lucy.MVCClient
     {
         public void Configuration(IAppBuilder app)
         {
+            //登陆后-- 会发回一个token到主程序，OpenID connect中间件验证token，提取声明信息，然后把声明信息传给cookie中间件设置认证cookie。
+            //Mircrosoft的JWT handler解析Claim并且映射到ClaimTypes类上显示的是长类型名
             JwtSecurityTokenHandler.InboundClaimTypeMap = new Dictionary<string, string>();
-
+            //配置cookie中间件
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = "Cookies"
             });
-
+            //配置OpenID Connect中间件
             app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             {
                 ClientId = Lucy.Constants.MVCCLIENTID,
@@ -42,7 +44,7 @@ namespace Lucy.MVCClient
                 },
 
                 SignInAsAuthenticationType = "Cookies",
-
+                //通知机制让我们做声明转换,转换后的声明会保存到cookie中。
                 Notifications = new OpenIdConnectAuthenticationNotifications
                 {
                     AuthorizationCodeReceived = async n =>
@@ -82,7 +84,8 @@ namespace Lucy.MVCClient
                             new ClaimsIdentity(id.Claims, n.AuthenticationTicket.Identity.AuthenticationType, "name", "role"),
                             n.AuthenticationTicket.Properties);
                     },
-
+                    //登出时把id_token发送到identityServer
+                    //以便我们重定向到正确的URL上（不是垃圾邮件地址或者钓鱼地址）
                     RedirectToIdentityProvider = n =>
                     {
                         // if signing out, add the id_token_hint

@@ -29,11 +29,7 @@ namespace Lucy.WebHost.UserService
         public static InMemoryUser GetUserInfoById(string subject)
         {
             var user = Users.Get().Find(t => t.Subject == subject);
-            if (user != null)
-            {
-                return user;
-            }
-            return null;
+            return user;
         }
         
     }

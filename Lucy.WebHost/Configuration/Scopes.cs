@@ -69,7 +69,7 @@ namespace IdentityServer3.Host.Config
                         } ,//添加访问用户的claim
                          Claims = new List<ScopeClaim>
                         {
-                            new ScopeClaim("UserType"),new ScopeClaim("UserTypeName")
+                            new ScopeClaim("UserName"),new ScopeClaim("UserType"),new ScopeClaim("UserTypeName")
                         }
                     }
                 };

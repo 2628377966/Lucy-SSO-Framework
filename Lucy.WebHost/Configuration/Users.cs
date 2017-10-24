@@ -44,7 +44,7 @@ namespace IdentityServer3.Host.Config
                     Password = item.Password,
                     Claims = new Claim[]
                     {
-                        new Claim("UserId", item.Id.ToString()),
+                        new Claim("UserName", item.UserName),
                          new Claim("UserType", item.UserType.ToString()),
                            new Claim("UserTypeName", item.UserTypeName)
                     }

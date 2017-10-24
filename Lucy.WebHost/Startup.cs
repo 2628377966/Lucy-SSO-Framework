@@ -45,6 +45,7 @@ namespace Lucy.WebHost
                     RaiseFailureEvents = true,
                     RaiseInformationEvents = true
                 }
+                
             };
 
             app.Map("/core", idsrvApp =>
