@@ -8,4 +8,5 @@ a SSO framework based on identityserver3,and integrated with mvc,web api,also ap
 - api获取用户的Claim信息
 ### 2017-10-24	
 - 添加一些重要的注释
+- 添加分享的文档
 		 
