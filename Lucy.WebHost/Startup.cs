@@ -28,6 +28,7 @@ namespace Lucy.WebHost
                         .UseInMemoryScopes(Scopes.Get());
 
             factory.UserService = new Registration<IUserService, CustomUserService>();//自定义的登录验证
+            factory.ViewService = new Registration<IViewService, CustomViewService>();
             factory.ConfigureUserServiceCache(TimeSpan.FromDays(1)); //过期时间1天
             var options = new IdentityServerOptions
             {

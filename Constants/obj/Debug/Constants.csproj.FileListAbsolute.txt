@@ -27,3 +27,4 @@ F:\Lucy\Lucy-SSO-Framework\Constants\bin\Debug\Constants.pdb
 F:\Lucy\Lucy-SSO-Framework\Constants\obj\Debug\Constants.csproj.CoreCompileInputs.cache
 F:\Lucy\Lucy-SSO-Framework\Constants\obj\Debug\Constants.dll
 F:\Lucy\Lucy-SSO-Framework\Constants\obj\Debug\Constants.pdb
+F:\Lucy\Lucy-SSO-Framework\Constants\obj\Debug\Constants.csprojResolveAssemblyReference.cache
