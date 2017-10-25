@@ -1,0 +1,1215 @@
+2017-10-25 09:23:06.693 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 09:23:06.709 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 09:23:06.709 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 09:23:06.709 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 09:23:07.054 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T01:23:06.9617274+00:00",
+    "ProcessId": 11684,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 09:23:55.767 +08:00 [Information] Start discovery request
+2017-10-25 09:23:55.865 +08:00 [Information] Start key discovery request
+2017-10-25 09:23:55.941 +08:00 [Information] Start authorize request
+2017-10-25 09:23:55.946 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 09:23:55.965 +08:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=FATrpfD8Z1LYMAE1f5KiXQqTlhZoc4lX6cPwho6cgLbJi0nzjbxrR-K8Jc_gGEOayl813XB508fchfn6nCHdRhnNMCbNEZSIghBW5w4T2rBCYoFTQPO5XfIOUs0XtNqGO4JBMPVav2gd4JpezR47NcHpxyL_YbxlMPAUOsTeqGgLqAS-oOlrvoIxTRhe0gfzxs_7axq4rDrRxHztIH-CYw\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=FATrpfD8Z1LYMAE1f5KiXQqTlhZoc4lX6cPwho6cgLbJi0nzjbxrR-K8Jc_gGEOayl813XB508fchfn6nCHdRhnNMCbNEZSIghBW5w4T2rBCYoFTQPO5XfIOUs0XtNqGO4JBMPVav2gd4JpezR47NcHpxyL_YbxlMPAUOsTeqGgLqAS-oOlrvoIxTRhe0gfzxs_7axq4rDrRxHztIH-CYw\",
+    \"nonce\": \"636444914358900672.MmFhM2M3NTEtMzlkYy00Zjg3LTlmZjUtYTc2MDVlMzY4YjhiM2VlM2IyODMtNTEwMi00YjNjLWExOTctMWYzMDk0NWRkOTI1\"
+  }
+}"
+2017-10-25 09:23:55.971 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "8000040b-0003-e900-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T01:23:55.9696463+00:00",
+    "ProcessId": 11684,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 09:23:55.974 +08:00 [Information] End authorize request
+2017-10-25 09:26:43.692 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 09:26:43.709 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 09:26:43.709 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 09:26:43.709 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 09:26:44.041 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T01:26:43.9490804+00:00",
+    "ProcessId": 12532,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 09:27:09.428 +08:00 [Information] Start discovery request
+2017-10-25 09:27:09.523 +08:00 [Information] Start key discovery request
+2017-10-25 09:27:09.604 +08:00 [Information] Start authorize request
+2017-10-25 09:27:09.610 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 09:27:09.629 +08:00 [Error] "Invalid flow for client: Implicit"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=wgRWusNElMNttkbWHzfdxqUwtpjZm8j2A-_Zk_Xkgr99rROIG3yXYL0cTmT0Cm8ZA2VRt0RdAn49a43bxGMSuD6q2NayEqEbyGVnmakwHN_kFMCo2YCgEhhj3lr3MtDj7ejSS9hPWOgI5KBSHDXcfd1XHnCENd0qf4t2inYnudJlVlC1L5ZCjZVqBqmExuQkeRjKiLlX8ZcT_VoUybjrWg\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=wgRWusNElMNttkbWHzfdxqUwtpjZm8j2A-_Zk_Xkgr99rROIG3yXYL0cTmT0Cm8ZA2VRt0RdAn49a43bxGMSuD6q2NayEqEbyGVnmakwHN_kFMCo2YCgEhhj3lr3MtDj7ejSS9hPWOgI5KBSHDXcfd1XHnCENd0qf4t2inYnudJlVlC1L5ZCjZVqBqmExuQkeRjKiLlX8ZcT_VoUybjrWg\",
+    \"nonce\": \"636444916295466350.YmIxNTYyYTAtM2RiYy00ZGQ2LTljZWItZmFkNjgwNzc1ZjQyYTU0ZDBmNTUtMTE5Yy00YjdiLTk5NDEtODFkM2RhM2I5YmFi\"
+  }
+}"
+2017-10-25 09:27:09.636 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "800002e3-0001-f300-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T01:27:09.6342611+00:00",
+    "ProcessId": 12532,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 09:27:09.638 +08:00 [Information] End authorize request
+2017-10-25 09:29:55.923 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 09:29:55.936 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 09:29:55.936 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 09:29:55.936 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 09:29:56.266 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T01:29:56.1708522+00:00",
+    "ProcessId": 13376,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 09:30:11.963 +08:00 [Information] Start discovery request
+2017-10-25 09:30:12.054 +08:00 [Information] Start key discovery request
+2017-10-25 09:30:12.193 +08:00 [Information] Start authorize request
+2017-10-25 09:30:12.199 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 09:30:12.222 +08:00 [Error] "Client requested access token - but client is not configured to receive access tokens via browser"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=xgNH7YviM907tbsfx8jO0FV059R9R-GyKCIVtv4zuUuIVkezQH6EPefDIApXsIRjUnvCxOIoQxoBaBYaqJR-JsCKpPNhOZKi7LGWNcykY4dF838jtq6gCYAQ65pL3HnPhd7otI4Oeux6MmMJae1Ej6XnvmHaX-5TpoX3Ds4HUnbZpEf2GBqeiA3ffS3OgtYIr5Ll2XST7bFqj3pI2El9Dg\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=xgNH7YviM907tbsfx8jO0FV059R9R-GyKCIVtv4zuUuIVkezQH6EPefDIApXsIRjUnvCxOIoQxoBaBYaqJR-JsCKpPNhOZKi7LGWNcykY4dF838jtq6gCYAQ65pL3HnPhd7otI4Oeux6MmMJae1Ej6XnvmHaX-5TpoX3Ds4HUnbZpEf2GBqeiA3ffS3OgtYIr5Ll2XST7bFqj3pI2El9Dg\",
+    \"nonce\": \"636444918121049193.OTdjNDEzYjMtYTM5Mi00YjZlLTk4Y2MtYTZmODgwYzZiNDdlMzFmNmFmMWMtYjYxMS00ZTcxLThmNDQtOWVkNjRiNjIxNmFl\"
+  }
+}"
+2017-10-25 09:30:12.235 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "invalid_request",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "800006c8-0000-e800-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T01:30:12.2330432+00:00",
+    "ProcessId": 13376,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 09:30:12.237 +08:00 [Information] End authorize request
+2017-10-25 09:57:12.692 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 09:57:12.710 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 09:57:12.710 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 09:57:12.710 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 09:57:13.075 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T01:57:12.9723462+00:00",
+    "ProcessId": 12048,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 10:01:53.568 +08:00 [Information] Start discovery request
+2017-10-25 10:01:53.665 +08:00 [Information] Start key discovery request
+2017-10-25 10:01:53.741 +08:00 [Information] Start authorize request
+2017-10-25 10:01:53.748 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:01:53.767 +08:00 [Error] "Invalid flow for client: Hybrid"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=C-6cyr_WwQpfvISj1myovgcTZnc75WcEAsVqk-ExwLUNcUCKT5ye--rWV4nVz9Z5KaO20WKJtpiPwRmlhj1Hh5B2sCEsyI130e7uKgBAcH_-ktov34JHdD42YLu2NVwblQKp59K0Y4-WstrHIOCsRMhYQ_8BozgeYH2pkE84ygLqRjJfkD3nQea8nB_fon-f8PbyBIjjQWFpReUxi5bQUQ\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=C-6cyr_WwQpfvISj1myovgcTZnc75WcEAsVqk-ExwLUNcUCKT5ye--rWV4nVz9Z5KaO20WKJtpiPwRmlhj1Hh5B2sCEsyI130e7uKgBAcH_-ktov34JHdD42YLu2NVwblQKp59K0Y4-WstrHIOCsRMhYQ_8BozgeYH2pkE84ygLqRjJfkD3nQea8nB_fon-f8PbyBIjjQWFpReUxi5bQUQ\",
+    \"nonce\": \"636444937136902234.ZDBkNmJiZGUtZmY1ZC00ZWVmLTk4NjgtNDcyMmY3YzM2NmVjMTlkZmEzYTQtOTMwOS00YTdmLWIxMmYtMGUxMzBjZGViYTg4\"
+  }
+}"
+2017-10-25 10:01:53.774 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint failure",
+  "EventType": "Failure",
+  "Id": 3001,
+  "Message": "unauthorized_client",
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000020-0000-d400-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:01:53.7723033+00:00",
+    "ProcessId": 12048,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 10:01:53.777 +08:00 [Information] End authorize request
+2017-10-25 10:01:58.933 +08:00 [Information] Start discovery request
+2017-10-25 10:01:58.948 +08:00 [Information] Start key discovery request
+2017-10-25 10:01:58.978 +08:00 [Information] Start authorize request
+2017-10-25 10:01:58.978 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:01:58.986 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcClient\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:58426/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:58426/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=zpxDtdK5ikjnm6xOBR9MBOttdImvDwuynPJcvZBeHA4lqJS3DOxVvEqX_afUSkcYhRwWu5ZeDAPXvaHl3GnqXIf1oalbKrnpCY3R4RHGLcn-QfnXVcPzqNUK0mqosqV2tU3nNG_apxbaJhlvuWQpFKk7htg55K6tXmy3vpegeoHu4evnpOrsBPDJeCP8xZQhyr7VaRcJ9eDzxvsX_3l6qg\",
+  \"Nonce\": \"636444937189649846.Y2FiY2U4ZGMtZDBhOS00OWZhLWI5YTAtN2U4MmE4ODFhNGZkODFhZTZmNGUtYmZlYy00ZDZhLWEzOGItM2IyNDMzZjk1NDY3\",
+  \"Raw\": {
+    \"client_id\": \"mvcClient\",
+    \"redirect_uri\": \"http://localhost:58426/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=zpxDtdK5ikjnm6xOBR9MBOttdImvDwuynPJcvZBeHA4lqJS3DOxVvEqX_afUSkcYhRwWu5ZeDAPXvaHl3GnqXIf1oalbKrnpCY3R4RHGLcn-QfnXVcPzqNUK0mqosqV2tU3nNG_apxbaJhlvuWQpFKk7htg55K6tXmy3vpegeoHu4evnpOrsBPDJeCP8xZQhyr7VaRcJ9eDzxvsX_3l6qg\",
+    \"nonce\": \"636444937189649846.Y2FiY2U4ZGMtZDBhOS00OWZhLWI5YTAtN2U4MmE4ODFhNGZkODFhZTZmNGUtYmZlYy00ZDZhLWEzOGItM2IyNDMzZjk1NDY3\"
+  }
+}"
+2017-10-25 10:01:58.989 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-25 10:01:58.997 +08:00 [Information] End authorize request
+2017-10-25 10:01:58.998 +08:00 [Information] Redirecting to login page
+2017-10-25 10:01:59.048 +08:00 [Information] Login page requested
+2017-10-25 10:01:59.094 +08:00 [Information] rendering login page
+2017-10-25 10:09:51.992 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 10:09:52.006 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 10:09:52.006 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 10:09:52.006 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 10:09:52.345 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T02:09:52.2504338+00:00",
+    "ProcessId": 6628,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 10:10:22.089 +08:00 [Information] Start discovery request
+2017-10-25 10:10:22.185 +08:00 [Information] Start key discovery request
+2017-10-25 10:10:22.260 +08:00 [Information] Start authorize request
+2017-10-25 10:10:22.267 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:10:22.292 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=OBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw\",
+  \"Nonce\": \"636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=OBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw\",
+    \"nonce\": \"636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2\"
+  }
+}"
+2017-10-25 10:10:22.296 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-25 10:10:22.303 +08:00 [Information] End authorize request
+2017-10-25 10:10:22.304 +08:00 [Information] Redirecting to login page
+2017-10-25 10:10:22.351 +08:00 [Information] Login page requested
+2017-10-25 10:10:22.396 +08:00 [Information] rendering login page
+2017-10-25 10:10:33.766 +08:00 [Information] Login page submitted
+2017-10-25 10:10:34.313 +08:00 [Information] Login credentials successfully validated by user service
+2017-10-25 10:10:34.321 +08:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "admin",
+    "SignInId": "265b9493f3cd5fffd8c5dd8f35396f6c",
+    "SignInMessage": {
+      "ReturnUrl": "http://localhost:50735/core/connect/authorize?client_id=mvcImplicit&redirect_uri=http%3A%2F%2Flocalhost%3A57054%2F&response_mode=form_post&response_type=id_token%20token&scope=openid%20profile%20all_claims%20offline_access%20generalApi&state=OpenIdConnect.AuthenticationProperties%3DOBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw&nonce=636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2",
+      "ClientId": "mvcImplicit",
+      "AcrValues": [],
+      "Created": 636444942222305587
+    },
+    "PartialLogin": false,
+    "SubjectId": "admin",
+    "Name": "admin"
+  },
+  "Context": {
+    "ActivityId": "80000014-0000-d000-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:10:34.3187129+00:00",
+    "ProcessId": 6628,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 10:10:34.325 +08:00 [Information] Calling PostAuthenticateAsync on the user service
+2017-10-25 10:10:34.329 +08:00 [Information] issuing primary signin cookie
+2017-10-25 10:10:34.333 +08:00 [Information] redirecting to: http://localhost:50735/core/connect/authorize?client_id=mvcImplicit&redirect_uri=http:%2F%2Flocalhost:57054%2F&response_mode=form_post&response_type=id_token token&scope=openid profile all_claims offline_access generalApi&state=OpenIdConnect.AuthenticationProperties%3DOBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw&nonce=636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2
+2017-10-25 10:10:34.373 +08:00 [Information] Start authorize request
+2017-10-25 10:10:34.374 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:10:34.374 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"admin\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=OBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw\",
+  \"Nonce\": \"636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2\",
+  \"SessionId\": \"0ad50db067c1ff9c9c76442acf63b167\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=OBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw\",
+    \"nonce\": \"636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2\"
+  }
+}"
+2017-10-25 10:10:34.378 +08:00 [Information] Showing consent screen
+2017-10-25 10:10:34.381 +08:00 [Information] End authorize request
+2017-10-25 10:11:09.231 +08:00 [Information] Resuming from consent, restarting validation
+2017-10-25 10:11:09.231 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:11:09.231 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"admin\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=OBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw\",
+  \"Nonce\": \"636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2\",
+  \"SessionId\": \"0ad50db067c1ff9c9c76442acf63b167\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=OBbmlQKBxxEO5slMrfwj6GbVCl84BwYX0vsAjxrM-JBkT1M2-L0fe4J9-xSz0DIm-1tYgTSuj02xXr4FsBSCDb6O7ZlltDlAHtO6lDVM6g0W-2GORWU6Qgey870g6fP3MPSD-cTF8_NyLgU_thKnxUfgNSLD6DyO41pO6kDRsRT6Dbs6sQ330txkG1kaXGHwEHquo1iTjWOLWnha9AFzlw\",
+    \"nonce\": \"636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2\"
+  }
+}"
+2017-10-25 10:11:09.245 +08:00 [Information] Creating Implicit Flow response.
+2017-10-25 10:11:09.333 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Access token issued",
+  "EventType": "Information",
+  "Id": 2000,
+  "Details": {
+    "TokenType": "Jwt",
+    "SubjectId": "admin",
+    "ClientId": "mvcImplicit",
+    "Scopes": [
+      "openid",
+      "profile",
+      "all_claims",
+      "offline_access",
+      "generalApi"
+    ],
+    "Lifetime": 3600,
+    "Claims": {
+      "client_id": "mvcImplicit",
+      "scope": [
+        "openid",
+        "profile",
+        "all_claims",
+        "offline_access",
+        "generalApi"
+      ],
+      "sub": "admin",
+      "auth_time": 1508897434,
+      "idp": "idsrv",
+      "amr": "password",
+      "UserName": "admin",
+      "UserType": "1",
+      "UserTypeName": "教职工"
+    }
+  },
+  "Context": {
+    "ActivityId": "80000019-0000-d000-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:11:09.3271922+00:00",
+    "ProcessId": 6628,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 10:11:09.339 +08:00 [Information] Getting claims for identity token for subject: admin
+2017-10-25 10:11:09.340 +08:00 [Information] All claims rule found - emitting all claims for user.
+2017-10-25 10:11:09.358 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "admin",
+    "ClientId": "mvcImplicit",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "636444942222085375.NmVmMGFhOTEtNzY0NS00NGRiLWEwMTgtMWFjNzY1NTc1YWYzYTc0YTU0NDctZDE0My00ZDllLWJkYzAtYjgwN2QzZjcxNTg2",
+      "iat": 1508897469,
+      "at_hash": "DCmmAlIvLiv_Hi8ks9qrKA",
+      "sid": "0ad50db067c1ff9c9c76442acf63b167",
+      "sub": "admin",
+      "auth_time": 1508897434,
+      "idp": "idsrv",
+      "amr": "password",
+      "UserName": "admin",
+      "UserType": "1",
+      "UserTypeName": "教职工"
+    }
+  },
+  "Context": {
+    "ActivityId": "80000019-0000-d000-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:11:09.3542177+00:00",
+    "ProcessId": 6628,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 10:11:09.365 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "80000019-0000-d000-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:11:09.3632301+00:00",
+    "ProcessId": 6628,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 10:11:09.367 +08:00 [Information] Posting to http://localhost:57054/
+2017-10-25 10:16:20.452 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 10:16:20.466 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 10:16:20.466 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 10:16:20.466 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 10:16:20.797 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T02:16:20.7050512+00:00",
+    "ProcessId": 19188,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 10:16:54.799 +08:00 [Information] Start discovery request
+2017-10-25 10:16:54.892 +08:00 [Information] Start key discovery request
+2017-10-25 10:16:54.981 +08:00 [Information] Start authorize request
+2017-10-25 10:16:54.987 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:16:55.017 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=C0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g\",
+  \"Nonce\": \"636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=C0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g\",
+    \"nonce\": \"636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw\"
+  }
+}"
+2017-10-25 10:16:55.021 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-25 10:16:55.029 +08:00 [Information] End authorize request
+2017-10-25 10:16:55.030 +08:00 [Information] Redirecting to login page
+2017-10-25 10:16:55.077 +08:00 [Information] Login page requested
+2017-10-25 10:16:55.121 +08:00 [Information] rendering login page
+2017-10-25 10:17:02.004 +08:00 [Information] Login page submitted
+2017-10-25 10:17:02.417 +08:00 [Information] Login credentials successfully validated by user service
+2017-10-25 10:17:02.424 +08:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "admin",
+    "SignInId": "698f53df618ce4a16b9dc4c388878d59",
+    "SignInMessage": {
+      "ReturnUrl": "http://localhost:50735/core/connect/authorize?client_id=mvcImplicit&redirect_uri=http%3A%2F%2Flocalhost%3A57054%2F&response_mode=form_post&response_type=id_token%20token&scope=openid%20profile%20all_claims%20offline_access%20generalApi&state=OpenIdConnect.AuthenticationProperties%3DC0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g&nonce=636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw",
+      "ClientId": "mvcImplicit",
+      "AcrValues": [],
+      "Created": 636444946149394322
+    },
+    "PartialLogin": false,
+    "SubjectId": "admin",
+    "Name": "admin"
+  },
+  "Context": {
+    "ActivityId": "800099f8-0000-e600-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:17:02.4218334+00:00",
+    "ProcessId": 19188,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 10:17:02.428 +08:00 [Information] Calling PostAuthenticateAsync on the user service
+2017-10-25 10:17:02.431 +08:00 [Information] issuing primary signin cookie
+2017-10-25 10:17:02.435 +08:00 [Information] redirecting to: http://localhost:50735/core/connect/authorize?client_id=mvcImplicit&redirect_uri=http:%2F%2Flocalhost:57054%2F&response_mode=form_post&response_type=id_token token&scope=openid profile all_claims offline_access generalApi&state=OpenIdConnect.AuthenticationProperties%3DC0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g&nonce=636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw
+2017-10-25 10:17:02.455 +08:00 [Information] Start authorize request
+2017-10-25 10:17:02.455 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:17:02.456 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"admin\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=C0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g\",
+  \"Nonce\": \"636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw\",
+  \"SessionId\": \"9b0aa92aa2b691388d6d902888191c11\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=C0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g\",
+    \"nonce\": \"636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw\"
+  }
+}"
+2017-10-25 10:17:02.460 +08:00 [Information] Showing consent screen
+2017-10-25 10:17:02.464 +08:00 [Information] End authorize request
+2017-10-25 10:17:04.494 +08:00 [Information] Resuming from consent, restarting validation
+2017-10-25 10:17:04.494 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 10:17:04.494 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvcImplicit\",
+  \"ClientName\": \"MVC OWIN Implicit Client\",
+  \"RedirectUri\": \"http://localhost:57054/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:57054/\"
+  ],
+  \"SubjectId\": \"admin\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Implicit\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=C0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g\",
+  \"Nonce\": \"636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw\",
+  \"SessionId\": \"9b0aa92aa2b691388d6d902888191c11\",
+  \"Raw\": {
+    \"client_id\": \"mvcImplicit\",
+    \"redirect_uri\": \"http://localhost:57054/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=C0YFyHRSJOE1PovKCNgsYkMHzphJ2pCz5GQGO7B0ZQFRPHGBWDHxEVBEZDmyBM5P3e_b_ImdkuseB_WuDmzaCNEKPANWccg6MW7_Zy-JtrlJyePyVsw_oqhR0Wb3avPEi2qYAkYQUqL0aJAMemctgkMrUHSGhfWxNaXp_3RgFBfaEDhVM35Zfp_gKY38V6hQvIh96Sb1aIEEmc6DPqoB2g\",
+    \"nonce\": \"636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw\"
+  }
+}"
+2017-10-25 10:17:04.502 +08:00 [Information] Creating Implicit Flow response.
+2017-10-25 10:17:04.578 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Access token issued",
+  "EventType": "Information",
+  "Id": 2000,
+  "Details": {
+    "TokenType": "Jwt",
+    "SubjectId": "admin",
+    "ClientId": "mvcImplicit",
+    "Scopes": [
+      "openid",
+      "profile",
+      "all_claims",
+      "offline_access",
+      "generalApi"
+    ],
+    "Lifetime": 3600,
+    "Claims": {
+      "client_id": "mvcImplicit",
+      "scope": [
+        "openid",
+        "profile",
+        "all_claims",
+        "offline_access",
+        "generalApi"
+      ],
+      "sub": "admin",
+      "auth_time": 1508897822,
+      "idp": "idsrv",
+      "amr": "password",
+      "UserName": "admin",
+      "UserType": "1",
+      "UserTypeName": "教职工"
+    }
+  },
+  "Context": {
+    "ActivityId": "8000000b-0002-e000-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:17:04.5727881+00:00",
+    "ProcessId": 19188,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 10:17:04.583 +08:00 [Information] Getting claims for identity token for subject: admin
+2017-10-25 10:17:04.583 +08:00 [Information] All claims rule found - emitting all claims for user.
+2017-10-25 10:17:04.599 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "admin",
+    "ClientId": "mvcImplicit",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "636444946149164099.MTkwZTZiZDMtNDEzNC00ZmYxLTk4YWQtOGIxZGRlNDdjNmVhMjNiZTRiMWItNGU5Mi00OWNjLWI4MmEtZTI4NGVjODRmNWYw",
+      "iat": 1508897824,
+      "at_hash": "H4KPodv-sA4OczGCdWatJA",
+      "sid": "9b0aa92aa2b691388d6d902888191c11",
+      "sub": "admin",
+      "auth_time": 1508897822,
+      "idp": "idsrv",
+      "amr": "password",
+      "UserName": "admin",
+      "UserType": "1",
+      "UserTypeName": "教职工"
+    }
+  },
+  "Context": {
+    "ActivityId": "8000000b-0002-e000-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:17:04.5973135+00:00",
+    "ProcessId": 19188,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 10:17:04.606 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "8000000b-0002-e000-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T02:17:04.6048221+00:00",
+    "ProcessId": 19188,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 10:17:04.608 +08:00 [Information] Posting to http://localhost:57054/
+2017-10-25 11:12:50.732 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 11:12:50.752 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 11:12:50.752 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 11:12:50.752 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 11:12:51.078 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T03:12:50.9878203+00:00",
+    "ProcessId": 4596,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 11:14:48.502 +08:00 [Warning] AuthorizationCodeStore not configured - falling back to InMemory
+2017-10-25 11:14:48.516 +08:00 [Warning] TokenHandleStore not configured - falling back to InMemory
+2017-10-25 11:14:48.516 +08:00 [Warning] ConsentStore not configured - falling back to InMemory
+2017-10-25 11:14:48.516 +08:00 [Warning] RefreshTokenStore not configured - falling back to InMemory
+2017-10-25 11:14:48.837 +08:00 [Information] {
+  "Category": "Information",
+  "Name": "Signing certificate validation success",
+  "EventType": "Information",
+  "Id": 4012,
+  "Details": {
+    "SigningCertificateName": "CN=idsrv3test",
+    "SigningCertificateExpiration": "2020-01-21T06:00:00+08:00"
+  },
+  "Context": {
+    "TimeStamp": "2017-10-25T03:14:48.7487914+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB"
+  }
+}
+2017-10-25 11:15:26.933 +08:00 [Information] Start discovery request
+2017-10-25 11:15:27.035 +08:00 [Information] Start key discovery request
+2017-10-25 11:15:27.110 +08:00 [Information] Start authorize request
+2017-10-25 11:15:27.116 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 11:15:27.144 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvc1\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:65074/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:65074/\"
+  ],
+  \"SubjectId\": \"unknown\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=SMq2KZ7GvbsleDhsd_w6l3TjiNvS-nfskE4ceIOCNIu_7tShvxCz18O7O6-NQXchRksrV8NGbnVrMbnWaTnGGjZ5P3-nQ8vof3ARihSaU8hxedy1DnC6oEwABDwMoKvj1qCQS1jS6spoi_m-3L-wxn_HFGTsNcwef--1DquUjWQsKhZO-n_9mEr-nRW5MwFpeNRTdKxudsa_s_4yFdw7gA\",
+  \"Nonce\": \"636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh\",
+  \"Raw\": {
+    \"client_id\": \"mvc1\",
+    \"redirect_uri\": \"http://localhost:65074/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=SMq2KZ7GvbsleDhsd_w6l3TjiNvS-nfskE4ceIOCNIu_7tShvxCz18O7O6-NQXchRksrV8NGbnVrMbnWaTnGGjZ5P3-nQ8vof3ARihSaU8hxedy1DnC6oEwABDwMoKvj1qCQS1jS6spoi_m-3L-wxn_HFGTsNcwef--1DquUjWQsKhZO-n_9mEr-nRW5MwFpeNRTdKxudsa_s_4yFdw7gA\",
+    \"nonce\": \"636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh\"
+  }
+}"
+2017-10-25 11:15:27.148 +08:00 [Information] User is not authenticated. Redirecting to login.
+2017-10-25 11:15:27.156 +08:00 [Information] End authorize request
+2017-10-25 11:15:27.157 +08:00 [Information] Redirecting to login page
+2017-10-25 11:15:27.203 +08:00 [Information] Login page requested
+2017-10-25 11:15:27.250 +08:00 [Information] rendering login page
+2017-10-25 11:15:33.229 +08:00 [Information] Login page submitted
+2017-10-25 11:15:33.616 +08:00 [Information] Login credentials successfully validated by user service
+2017-10-25 11:15:33.624 +08:00 [Information] {
+  "Category": "Authentication",
+  "Name": "Local Login Success",
+  "EventType": "Success",
+  "Id": 1010,
+  "Details": {
+    "LoginUserName": "admin",
+    "SignInId": "873cefe630d846e677a81a90a9372a72",
+    "SignInMessage": {
+      "ReturnUrl": "http://localhost:50735/core/connect/authorize?client_id=mvc1&redirect_uri=http%3A%2F%2Flocalhost%3A65074%2F&response_mode=form_post&response_type=code%20id_token&scope=openid%20profile%20all_claims%20offline_access%20generalApi&state=OpenIdConnect.AuthenticationProperties%3DSMq2KZ7GvbsleDhsd_w6l3TjiNvS-nfskE4ceIOCNIu_7tShvxCz18O7O6-NQXchRksrV8NGbnVrMbnWaTnGGjZ5P3-nQ8vof3ARihSaU8hxedy1DnC6oEwABDwMoKvj1qCQS1jS6spoi_m-3L-wxn_HFGTsNcwef--1DquUjWQsKhZO-n_9mEr-nRW5MwFpeNRTdKxudsa_s_4yFdw7gA&nonce=636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh",
+      "ClientId": "mvc1",
+      "AcrValues": [],
+      "Created": 636444981270825996
+    },
+    "PartialLogin": false,
+    "SubjectId": "admin",
+    "Name": "admin"
+  },
+  "Context": {
+    "ActivityId": "800055df-0002-f800-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:33.6214065+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:33.628 +08:00 [Information] Calling PostAuthenticateAsync on the user service
+2017-10-25 11:15:33.630 +08:00 [Information] issuing primary signin cookie
+2017-10-25 11:15:33.634 +08:00 [Information] redirecting to: http://localhost:50735/core/connect/authorize?client_id=mvc1&redirect_uri=http:%2F%2Flocalhost:65074%2F&response_mode=form_post&response_type=code id_token&scope=openid profile all_claims offline_access generalApi&state=OpenIdConnect.AuthenticationProperties%3DSMq2KZ7GvbsleDhsd_w6l3TjiNvS-nfskE4ceIOCNIu_7tShvxCz18O7O6-NQXchRksrV8NGbnVrMbnWaTnGGjZ5P3-nQ8vof3ARihSaU8hxedy1DnC6oEwABDwMoKvj1qCQS1jS6spoi_m-3L-wxn_HFGTsNcwef--1DquUjWQsKhZO-n_9mEr-nRW5MwFpeNRTdKxudsa_s_4yFdw7gA&nonce=636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh
+2017-10-25 11:15:33.656 +08:00 [Information] Start authorize request
+2017-10-25 11:15:33.656 +08:00 [Information] Start authorize request protocol validation
+2017-10-25 11:15:33.657 +08:00 [Information] "Authorize request validation success"
+ "{
+  \"ClientId\": \"mvc1\",
+  \"ClientName\": \"MVC OWIN Hybrid Client\",
+  \"RedirectUri\": \"http://localhost:65074/\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:65074/\"
+  ],
+  \"SubjectId\": \"admin\",
+  \"ResponseType\": \"code id_token\",
+  \"ResponseMode\": \"form_post\",
+  \"Flow\": \"Hybrid\",
+  \"RequestedScopes\": \"openid profile all_claims offline_access generalApi\",
+  \"State\": \"OpenIdConnect.AuthenticationProperties=SMq2KZ7GvbsleDhsd_w6l3TjiNvS-nfskE4ceIOCNIu_7tShvxCz18O7O6-NQXchRksrV8NGbnVrMbnWaTnGGjZ5P3-nQ8vof3ARihSaU8hxedy1DnC6oEwABDwMoKvj1qCQS1jS6spoi_m-3L-wxn_HFGTsNcwef--1DquUjWQsKhZO-n_9mEr-nRW5MwFpeNRTdKxudsa_s_4yFdw7gA\",
+  \"Nonce\": \"636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh\",
+  \"SessionId\": \"73efea56d1216e9efcfd4ee485c662d5\",
+  \"Raw\": {
+    \"client_id\": \"mvc1\",
+    \"redirect_uri\": \"http://localhost:65074/\",
+    \"response_mode\": \"form_post\",
+    \"response_type\": \"code id_token\",
+    \"scope\": \"openid profile all_claims offline_access generalApi\",
+    \"state\": \"OpenIdConnect.AuthenticationProperties=SMq2KZ7GvbsleDhsd_w6l3TjiNvS-nfskE4ceIOCNIu_7tShvxCz18O7O6-NQXchRksrV8NGbnVrMbnWaTnGGjZ5P3-nQ8vof3ARihSaU8hxedy1DnC6oEwABDwMoKvj1qCQS1jS6spoi_m-3L-wxn_HFGTsNcwef--1DquUjWQsKhZO-n_9mEr-nRW5MwFpeNRTdKxudsa_s_4yFdw7gA\",
+    \"nonce\": \"636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh\"
+  }
+}"
+2017-10-25 11:15:33.667 +08:00 [Information] Creating Hybrid Flow response.
+2017-10-25 11:15:33.677 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Authorization code issued",
+  "EventType": "Information",
+  "Id": 2010,
+  "Details": {
+    "HandleId": "843a29508ed7844c6376022a487dcbfe",
+    "RedirectUri": "http://localhost:65074/",
+    "SubjectId": "admin",
+    "ClientId": "mvc1",
+    "Scopes": [
+      "openid",
+      "profile",
+      "all_claims",
+      "offline_access",
+      "generalApi"
+    ],
+    "Lifetime": 300
+  },
+  "Context": {
+    "ActivityId": "800055e0-0002-f800-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:33.672957+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 11:15:33.679 +08:00 [Information] Creating Implicit Flow response.
+2017-10-25 11:15:33.686 +08:00 [Information] Getting claims for identity token for subject: admin
+2017-10-25 11:15:33.687 +08:00 [Information] All claims rule found - emitting all claims for user.
+2017-10-25 11:15:33.754 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "admin",
+    "ClientId": "mvc1",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh",
+      "iat": 1508901333,
+      "c_hash": "l23tZ3RsCg2APgnFhbDyWA",
+      "sid": "73efea56d1216e9efcfd4ee485c662d5",
+      "sub": "admin",
+      "auth_time": 1508901333,
+      "idp": "idsrv",
+      "amr": "password",
+      "UserName": "admin",
+      "UserType": "1",
+      "UserTypeName": "教职工"
+    }
+  },
+  "Context": {
+    "ActivityId": "800055e0-0002-f800-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:33.7505343+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 11:15:33.761 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "authorize"
+  },
+  "Context": {
+    "ActivityId": "800055e0-0002-f800-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:33.759543+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1",
+    "SubjectId": "admin"
+  }
+}
+2017-10-25 11:15:33.761 +08:00 [Information] End authorize request
+2017-10-25 11:15:33.763 +08:00 [Information] Posting to http://localhost:65074/
+2017-10-25 11:15:33.954 +08:00 [Information] Start token request
+2017-10-25 11:15:33.965 +08:00 [Information] Secret id found: "mvc1"
+2017-10-25 11:15:33.971 +08:00 [Information] Client validation success
+2017-10-25 11:15:33.975 +08:00 [Information] {
+  "Category": "ClientAuthentication",
+  "Name": "Client authentication success",
+  "EventType": "Success",
+  "Id": 1060,
+  "Details": {
+    "ClientId": "mvc1",
+    "ClientType": "Client"
+  },
+  "Context": {
+    "ActivityId": "80000b8a-0003-e900-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:33.9728359+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:33.977 +08:00 [Information] Start token request validation
+2017-10-25 11:15:33.982 +08:00 [Information] Start validation of authorization code token request
+2017-10-25 11:15:33.983 +08:00 [Information] Validation of authorization code token request success
+2017-10-25 11:15:33.985 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Authorization code redeem success",
+  "EventType": "Success",
+  "Id": 2011,
+  "Details": {
+    "HandleId": "843a29508ed7844c6376022a487dcbfe",
+    "ClientId": "mvc1",
+    "Lifetime": 0
+  },
+  "Context": {
+    "ActivityId": "80000b8a-0003-e900-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:33.9858502+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:33.989 +08:00 [Information] Token request validation success
+ {
+  "ClientId": "mvc1",
+  "ClientName": "MVC OWIN Hybrid Client",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "843a29508ed7844c6376022a487dcbfe",
+  "Raw": {
+    "grant_type": "authorization_code",
+    "code": "843a29508ed7844c6376022a487dcbfe",
+    "redirect_uri": "http://localhost:65074/"
+  }
+}
+2017-10-25 11:15:33.991 +08:00 [Information] Creating token response
+2017-10-25 11:15:33.993 +08:00 [Information] Processing authorization code request
+2017-10-25 11:15:34.008 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Refresh token issued",
+  "EventType": "Information",
+  "Id": 2020,
+  "Details": {
+    "HandleId": "3915ce4d01985360975bc329651bd217",
+    "Version": 4,
+    "SubjectId": "admin",
+    "ClientId": "mvc1",
+    "Scopes": [
+      "openid",
+      "profile",
+      "all_claims",
+      "offline_access",
+      "generalApi"
+    ],
+    "Lifetime": 2592000
+  },
+  "Context": {
+    "ActivityId": "80000b8a-0003-e900-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:34.0058681+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:34.014 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Access token issued",
+  "EventType": "Information",
+  "Id": 2000,
+  "Details": {
+    "TokenType": "Reference",
+    "ReferenceTokenHandle": "cadc54d0633318ded4cfcd12d934c57a",
+    "SubjectId": "admin",
+    "ClientId": "mvc1",
+    "Scopes": [
+      "openid",
+      "profile",
+      "all_claims",
+      "offline_access",
+      "generalApi"
+    ],
+    "Lifetime": 3600,
+    "Claims": {
+      "client_id": "mvc1",
+      "scope": [
+        "openid",
+        "profile",
+        "all_claims",
+        "offline_access",
+        "generalApi"
+      ],
+      "sub": "admin",
+      "auth_time": 1508901333,
+      "idp": "idsrv",
+      "amr": "password",
+      "UserName": "admin",
+      "UserType": "1",
+      "UserTypeName": "教职工"
+    }
+  },
+  "Context": {
+    "ActivityId": "80000b8a-0003-e900-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:34.0108733+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:34.014 +08:00 [Information] Getting claims for identity token for subject: admin
+2017-10-25 11:15:34.014 +08:00 [Information] All claims rule found - emitting all claims for user.
+2017-10-25 11:15:34.024 +08:00 [Information] {
+  "Category": "TokenService",
+  "Name": "Identity token issued",
+  "EventType": "Information",
+  "Id": 2001,
+  "Details": {
+    "SubjectId": "admin",
+    "ClientId": "mvc1",
+    "Lifetime": 300,
+    "Claims": {
+      "nonce": "636444981270590753.ZDRkYjU1ZGItMGJiMS00ZDJkLTgzY2YtYjRkODA1ZTdjMzIyODJlOWE2YjMtMzU0MC00NmMzLTk4Y2QtMGFiMGQ1ZmY3MGJh",
+      "iat": 1508901334,
+      "sid": "73efea56d1216e9efcfd4ee485c662d5",
+      "sub": "admin",
+      "auth_time": 1508901333,
+      "idp": "idsrv",
+      "amr": "password",
+      "UserName": "admin",
+      "UserType": "1",
+      "UserTypeName": "教职工"
+    }
+  },
+  "Context": {
+    "ActivityId": "80000b8a-0003-e900-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:34.0248881+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:34.025 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "token"
+  },
+  "Context": {
+    "ActivityId": "80000b8a-0003-e900-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:34.0258879+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:34.025 +08:00 [Information] End token request
+2017-10-25 11:15:34.028 +08:00 [Information] Returning token response.
+2017-10-25 11:15:34.049 +08:00 [Information] Start userinfo request
+2017-10-25 11:15:34.051 +08:00 [Information] Token found: AuthorizationHeader
+2017-10-25 11:15:34.054 +08:00 [Information] Start access token validation
+2017-10-25 11:15:34.062 +08:00 [Information] "Token validation success"
+"{
+  \"ValidateLifetime\": true,
+  \"AccessTokenType\": \"Reference\",
+  \"ExpectedScope\": \"openid\",
+  \"TokenHandle\": \"cadc54d0633318ded4cfcd12d934c57a\",
+  \"Claims\": {
+    \"aud\": \"http://localhost:50735/core/resources\",
+    \"iss\": \"http://localhost:50735/core\",
+    \"nbf\": 1508901334,
+    \"exp\": 1508904934,
+    \"client_id\": \"mvc1\",
+    \"scope\": [
+      \"openid\",
+      \"profile\",
+      \"all_claims\",
+      \"offline_access\",
+      \"generalApi\"
+    ],
+    \"sub\": \"admin\",
+    \"auth_time\": 1508901333,
+    \"idp\": \"idsrv\",
+    \"amr\": \"password\",
+    \"UserName\": \"admin\",
+    \"UserType\": \"1\",
+    \"UserTypeName\": \"教职工\"
+  }
+}"
+2017-10-25 11:15:34.065 +08:00 [Information] Creating userinfo response
+2017-10-25 11:15:34.067 +08:00 [Information] Scopes in access token: "openid profile all_claims offline_access generalApi"
+2017-10-25 11:15:34.067 +08:00 [Information] Requested claim types: all
+2017-10-25 11:15:34.067 +08:00 [Information] Profile service returned to the following claim types: "UserName UserType UserTypeName"
+2017-10-25 11:15:34.067 +08:00 [Information] End userinfo request
+2017-10-25 11:15:34.068 +08:00 [Information] {
+  "Category": "Endpoints",
+  "Name": "Endpoint success",
+  "EventType": "Success",
+  "Id": 3000,
+  "Details": {
+    "EndpointName": "userinfo"
+  },
+  "Context": {
+    "ActivityId": "8000033b-0002-db00-b63f-84710c7967bb",
+    "TimeStamp": "2017-10-25T03:15:34.0689317+00:00",
+    "ProcessId": 21196,
+    "MachineName": "DESKTOP-6IRCBLB",
+    "RemoteIpAddress": "::1"
+  }
+}
+2017-10-25 11:15:34.070 +08:00 [Information] Returning userinfo response.

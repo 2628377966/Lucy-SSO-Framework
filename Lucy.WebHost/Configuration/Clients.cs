@@ -90,6 +90,47 @@ namespace IdentityServer3.Host.Config
                        Constants.StandardScopes.OfflineAccess,
                        Lucy.Constants.WebApi_Scope
                    }
+                },
+                 new Client
+                {
+                    ClientName = "MVC OWIN Hybrid Client",
+                    ClientId = Lucy.Constants.MVC1_CLIENTID,
+                    Flow = Flows.Hybrid,
+                    AllowAccessTokensViaBrowser = false,
+
+                    ClientSecrets = new List<Secret>
+                    {
+                        new Secret(Lucy.Constants.MVC1_SECRET.Sha256())
+                    },
+
+                    AllowedScopes = new List<string>
+                    {
+                        Constants.StandardScopes.OpenId,
+                        Constants.StandardScopes.Profile,
+                        Constants.StandardScopes.Email,
+                        Constants.StandardScopes.AllClaims,
+                        Constants.StandardScopes.Roles,
+                        Constants.StandardScopes.OfflineAccess,
+                        Lucy.Constants.WebApi_Scope
+                    },
+
+                    ClientUri = "https://identityserver.io",
+
+                    RequireConsent = false,
+                    AccessTokenType = AccessTokenType.Reference,
+
+                    RedirectUris = new List<string>
+                    {
+                       Lucy.Constants.MVC1_URL
+                    },
+
+                    PostLogoutRedirectUris = new List<string>
+                    {
+                         Lucy.Constants.MVC1_URL
+                    },
+
+                    LogoutUri =  Lucy.Constants.MVC1_URL+"Home/OidcSignOut",
+                    LogoutSessionRequired = true
                 }
             };
         }

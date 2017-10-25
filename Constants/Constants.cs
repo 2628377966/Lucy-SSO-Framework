@@ -16,6 +16,12 @@
         public const string MVCSECRET = "secret";
         #endregion
 
+        #region MVC1
+        public const string MVC1_CLIENTID = "mvc1";
+        public const string MVC1_URL = "http://localhost:65074/";
+        public const string MVC1_SECRET = "secret";
+        #endregion
+
         #region PasswordClient
         public const string Password_ClientId = "carbon";
         public const string Password_ClientSecret = "21B5F798-BE55-42BC-8AA8";
@@ -28,7 +34,9 @@
         public const string WebApi_SECRET = "secret";
         #endregion
 
-       
+    
+
+
 
     }
 }
