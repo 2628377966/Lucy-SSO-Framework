@@ -38,6 +38,10 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\System.Web.WebPages.Deployment.x
 F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
-F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\obj\Debug\Lucy.Tools.csproj.CoreCompileInputs.cache
 F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\obj\Debug\Lucy.Tools.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\obj\Debug\Lucy.Tools.pdb
+F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\obj\Debug\Lucy.Tools.csprojResolveAssemblyReference.cache
+F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\Lucy.Models.dll
+F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\EntityFramework.dll
+F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\Lucy.Models.pdb
+F:\Lucy\Lucy-SSO-Framework\Lucy.Tools\bin\Debug\EntityFramework.xml

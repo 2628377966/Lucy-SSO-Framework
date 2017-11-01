@@ -1,0 +1,56 @@
+﻿<#@ template  debug="true" hostSpecific="true" #>
+<#@ output extension=".cs" #>
+<#@ Assembly Name="System.Core" #>
+<#@ Assembly Name="System.Windows.Forms" #>
+<#@ Assembly Name="$(TargetDir)Lucy.Services.dll" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #> 
+using System.Collections.Generic;
+using Lucy.Models;
+using Lucy.Services.Dtos;
+using Lucy.Tools;
+
+
+  <#List<Lucy.Services.TemplateUtil.TemplateName> ModelNames=Lucy.Services.TemplateUtil.GetModelNames();
+	 foreach (var item in ModelNames)
+     {#>
+
+namespace Lucy.Services.Template
+{
+	public interface I<#=item.ModelName#>Svc
+	{
+	#region I<#=item.ModelName#>Svc
+	/// <summary>
+    /// 获取模型
+    /// </summary>
+    /// <param name="id">主键</param>
+    /// <returns></returns>
+	<#=item.ModelName#> GetModel(int? id);
+	/// <summary>
+    /// 分页查询
+    /// </summary>
+    /// <param name="pager">分页model</param>
+    /// <param name="search">查询model</param>
+    /// <returns></returns>
+	object GetPager(GridPageModel pager, SearchModel search);
+	/// <summary>
+	/// 保存
+	/// </summary>
+	/// <param name="model">model</param>
+	/// <returns></returns>
+	ResultEx Save(<#=item.ModelName#> model);
+	 /// <summary>
+	/// 删除
+	/// </summary>
+	/// <param name="ids">主键列表</param>
+	/// <returns></returns>
+	ResultEx Delete(List<int> ids);
+	#endregion
+	}
+  } 
+  <#}#>
+  

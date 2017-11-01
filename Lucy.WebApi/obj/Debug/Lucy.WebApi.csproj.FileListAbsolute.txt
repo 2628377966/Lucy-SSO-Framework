@@ -160,9 +160,7 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\NPOI.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\ExfSoft.Common.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Constants.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Lucy.Models.pdb
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Lucy.Models.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Lucy.Services.pdb
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Lucy.Services.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Lucy.Tools.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Autofac.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Autofac.Integration.Owin.xml
@@ -171,7 +169,6 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Autofac.Integration.WebApi.Owin.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\IdentityModel.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\IdentityServer3.AccessTokenValidation.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\IdentityServer3.AccessTokenValidation.xml
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\IdentityServer3.AccessTokenValidation.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
@@ -203,7 +200,6 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Microsoft.AI.WindowsServer.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\Microsoft.AI.Web.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\EntityFramework.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\EntityFramework.Extended.xml
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\EntityFramework.Extended.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\NPOI.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\zh-Hans\System.Web.Helpers.resources.dll
@@ -216,6 +212,5 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\zh-Hans\System.Web.WebPages.resources
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\obj\Debug\Lucy.WebApi.csprojResolveAssemblyReference.cache
-F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\obj\Debug\Lucy.WebApi.csproj.CoreCompileInputs.cache
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\obj\Debug\Lucy.WebApi.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.WebApi\obj\Debug\Lucy.WebApi.pdb

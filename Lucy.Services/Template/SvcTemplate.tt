@@ -1,0 +1,103 @@
+﻿<#@ template  debug="true" hostSpecific="true" #>
+<#@ output extension=".cs" #>
+<#@ Assembly Name="System.Core" #>
+<#@ Assembly Name="System.Windows.Forms" #>
+<#@ Assembly Name="$(TargetDir)Lucy.Services.dll" #>
+
+<#@ import namespace="System" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #> 
+using System.Linq;
+using System.Collections.Generic;
+using EntityFramework.Extensions;
+using Mehdime.Entity;
+using Lucy.Models;
+using Lucy.Services.Dtos;
+using Lucy.Services.Interfaces;
+using Lucy.Tools;
+namespace Lucy.Services.Template
+{
+  <#List<Lucy.Services.TemplateUtil.TemplateName> ModelNames=Lucy.Services.TemplateUtil.GetModelNames();
+	 foreach (var item in ModelNames)
+     {#>
+	  public class <#=item.ModelName#>Svc : I<#=item.ModelName#>Svc
+      {
+        private readonly IDbContextScopeFactory _dbScopeFactory = new DbContextScopeFactory();
+
+        #region I<#=item.ModelName#>Svc
+		/// <summary>
+		/// 获取模型
+		/// </summary>
+		/// <param name="id">主键</param>
+		/// <returns></returns>
+        public <#=item.ModelName#> GetModel(int? id)
+        {
+            using (var dbScope = _dbScopeFactory.Create())
+            {
+                var db = dbScope.DbContexts.Get<WebDbContext>();
+                if (id == null)
+                    return null;
+                else
+                    return db.<#=item.EntityName#>.SingleOrDefault(p => p.Id == id.Value);
+            }
+        }
+		/// <summary>
+		/// 分页查询
+		/// </summary>
+		/// <param name="pager">分页model</param>
+		/// <param name="search">查询model</param>
+		/// <returns></returns>
+        public object GetPager(GridPageModel pager, SearchModel search)
+        {
+            using (var dbScope = _dbScopeFactory.Create())
+            {
+                var db = dbScope.DbContexts.Get<WebDbContext>();
+                var query = from p in db.<#=item.EntityName#>
+                            select p;
+                return new PagedList<<#=item.ModelName#>>(query, pager).ToPager();
+            }
+        }
+		/// <summary>
+		/// 保存
+		/// </summary>
+		/// <param name="model">model</param>
+		/// <returns></returns>
+        public ResultEx Save(<#=item.ModelName#> model)
+        {
+                using (var dbScope = _dbScopeFactory.Create())
+                {
+                    var db = dbScope.DbContexts.Get<WebDbContext>();
+                        if (model.Id == 0)
+                        {
+                            db.<#=item.EntityName#>.Add(model);
+                        }
+                        else
+                        {
+                            db.Entry(model).State = System.Data.Entity.EntityState.Modified;
+                        }
+                       return ResultEx.Init(db.SaveChanges() > 0);
+                }
+        }
+
+		
+		/// <summary>
+		/// 删除
+		/// </summary>
+		/// <param name="ids">主键列表</param>
+		/// <returns></returns>
+        public ResultEx Delete(List<int> ids)
+        {
+            using (var dbScope = _dbScopeFactory.Create())
+            {
+                var db = dbScope.DbContexts.Get<WebDbContext>();
+                db.<#=item.EntityName#>.Where(p => ids.Contains(p.Id)).Delete();
+                return ResultEx.Init();
+            }
+        }
+        #endregion
+      }
+	   <#}#>
+	   }

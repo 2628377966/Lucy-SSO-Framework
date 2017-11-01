@@ -12,5 +12,7 @@ a SSO framework based on identityserver3,and integrated with mvc,web api,also ap
 ### 2017-10-25	
 - 添加Lucy.MVC1-Hybrid flow，实现两个MVC客户端在同一浏览器单点登录
 - 使用angular自定义登录页面
+### 2017-11-1	
+- 添加Lucy.Servers.Template，使用t4模板代码生成器，自己写的模板，研究时间短，比较简陋
 
 		 

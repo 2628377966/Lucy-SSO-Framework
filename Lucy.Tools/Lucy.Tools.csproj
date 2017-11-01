@@ -87,5 +87,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lucy.Models\Lucy.Models.csproj">
+      <Project>{9275ea53-4568-4583-804f-06843bac60a5}</Project>
+      <Name>Lucy.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

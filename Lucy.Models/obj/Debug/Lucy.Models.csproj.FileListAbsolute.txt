@@ -14,6 +14,5 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.SqlServer.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.Models\bin\Debug\EntityFramework.SqlServer.xml
-F:\Lucy\Lucy-SSO-Framework\Lucy.Models\obj\Debug\Lucy.Models.csproj.CoreCompileInputs.cache
 F:\Lucy\Lucy-SSO-Framework\Lucy.Models\obj\Debug\Lucy.Models.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Models\obj\Debug\Lucy.Models.pdb

@@ -128,6 +128,5 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.MVCClient\bin\zh-Hans\System.Web.WebPages.resour
 F:\Lucy\Lucy-SSO-Framework\Lucy.MVCClient\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.MVCClient\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.csprojResolveAssemblyReference.cache
-F:\Lucy\Lucy-SSO-Framework\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.csproj.CoreCompileInputs.cache
 F:\Lucy\Lucy-SSO-Framework\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.MVCClient\obj\Debug\Lucy.MVCClient.pdb
