@@ -14,5 +14,7 @@ a SSO framework based on identityserver3,and integrated with mvc,web api,also ap
 - 使用angular自定义登录页面
 ### 2017-11-1	
 - 添加Lucy.Servers.Template，使用t4模板代码生成器，自己写的模板，研究时间短，比较简陋
+### 2017-12-14
+- 添加Lucy.Test基于xunit和moq的单元测试项目
 
 		 
