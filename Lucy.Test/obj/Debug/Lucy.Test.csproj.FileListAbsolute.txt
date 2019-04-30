@@ -11,7 +11,6 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\xunit.assert.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\xunit.core.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\xunit.execution.desktop.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\obj\Debug\Lucy.Test.csprojResolveAssemblyReference.cache
-F:\Lucy\Lucy-SSO-Framework\Lucy.Test\obj\Debug\Lucy.Test.csproj.CoreCompileInputs.cache
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\obj\Debug\Lucy.Test.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\obj\Debug\Lucy.Test.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\Castle.Core.dll
@@ -29,7 +28,6 @@ F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\ExfSoft.Common.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\Newtonsoft.Json.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\System.Web.WebPages.Deployment.dll
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\Lucy.Services.pdb
-F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\Lucy.Services.dll.config
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\Lucy.Tools.pdb
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\Castle.Core.xml
 F:\Lucy\Lucy-SSO-Framework\Lucy.Test\bin\Debug\Moq.pdb

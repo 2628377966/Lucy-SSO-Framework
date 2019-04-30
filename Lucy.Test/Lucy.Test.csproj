@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountPresenter.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="XunitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestUpdatePassword.cs" />
   </ItemGroup>
@@ -78,6 +78,10 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lucy.Models\Lucy.Models.csproj">
+      <Project>{9275EA53-4568-4583-804F-06843BAC60A5}</Project>
+      <Name>Lucy.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lucy.Services\Lucy.Services.csproj">
       <Project>{b105bc98-cc47-423d-bafb-b3a2b4d29c3f}</Project>
       <Name>Lucy.Services</Name>
